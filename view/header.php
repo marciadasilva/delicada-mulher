@@ -11,6 +11,20 @@
 </head>
 <body>
 <header>
+
+    <div class="container">
+
+        <img src="img/delicadaLogo.fw.png" alt="DelicadaLogo" id="logotipo">
+
+    </div>
+
+    <div>
+        <div class="container">
+            <ul class="pull-right">
+                <li></li>
+            </ul>
+        </div>
+    </div>
     <div class="container">
         <div class="row">
             <nav id="menu" class="pull-right">
@@ -18,6 +32,7 @@
                     <li><a href="#">Home</a></li>
                     <li><a href="#">Feminino</a></li>
                     <li><a href="#">Masculino</a></li>
+                    <li><a href="shop.php">Carrinho <i class="fa fa-shopping-bag"></i></a></li>
                     <li class="search">
                         <div class="input-group">
                             <input type="search" placeholder="pesquisar..." id="input-search">
@@ -30,26 +45,4 @@
 
         </div>
     </div>
-
-    <div class="container">
-
-        <img src="img/delicadaLogo.fw.png" alt="DelicadaLogo" id="logotipo">
-
-    </div>
 </header>
-
-<section>
-
-
-</section>
-
-<footer>
-
-
-</footer>
-<script src="lib/jquery/jquery.min.js"></script>
-<script src="lib/owl.carousel/owl-carousel/owl.carousel.min.js"></script>
-<script src="lib/bootstrap/js/bootstrap.min.js"></script>
-</body>
-
-</html>

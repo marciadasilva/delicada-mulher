@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-	$("#logotipo").on("mouseover",function(){
+	/*$("#logotipo").on("mouseover",function(){
 		
 		$("#banner h1").addClass("efeito");
 
@@ -8,7 +8,7 @@ $(document).ready(function(){
 
 		$("#banner h1").removeClass("efeito");
 
-	});
+	});*/
 
 	$("#input-search").on("focus", function(){
 
