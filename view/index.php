@@ -8,7 +8,7 @@
 
     <div class="container" id="destaques">
         <div class="row text-center">
-            <h2>Destaques</h2>
+            <h2>Lançamentos</h2>
             <hr>
         </div>
 
@@ -18,7 +18,7 @@
         <div class="row thumbnails">
             <div class="item">
                 <div class="item-inner">
-                    <img src="img/thumnails-vestido.jpg" alt="vestido">
+                    <img src="img/pose1.jpg" alt="vestido">
                     <h3>Os melhores vestidinhos que você vai ver na sua vida!</h3>
                     <time>Agosto, 2017</time>
                 </div>
@@ -26,7 +26,7 @@
 
             <div class="item">
                 <div class="item-inner">
-                    <img src="img/thumnails-vestido.jpg" alt="vestido">
+                    <img src="img/pose2.jpg" alt="vestido">
                     <h3>Os melhores vestidinhos que você vai ver na sua vida!</h3>
                     <time>Agosto, 2017</time>
                 </div>
@@ -34,7 +34,7 @@
 
             <div class="item">
                 <div class="item-inner">
-                    <img src="img/thumnails-vestido.jpg" alt="vestido">
+                    <img src="img/pose2.jpg" alt="vestido">
                     <h3>Os melhores vestidinhos que você vai ver na sua vida!</h3>
                     <time>Agosto, 2017</time>
                 </div>
@@ -42,7 +42,7 @@
 
             <div class="item">
                 <div class="item-inner">
-                    <img src="img/thumnails-vestido.jpg" alt="vestido">
+                    <img src="img/pose1.jpg" alt="vestido">
                     <h3>Os melhores vestidinhos que você vai ver na sua vida!</h3>
                     <time>Agosto, 2017</time>
                 </div>
@@ -50,7 +50,7 @@
 
             <div class="item">
                 <div class="item-inner">
-                    <img src="img/thumnails-vestido.jpg" alt="vestido">
+                    <img src="img/pose2.jpg" alt="vestido">
                     <h3>Os melhores vestidinhos que você vai ver na sua vida!</h3>
                     <time>Agosto, 2017</time>
                 </div>
@@ -84,32 +84,32 @@
         <div class="row thumbnails">
             <div class="item">
                 <div class="item-inner">
-                    <img src="img/shop.jpg" alt="vestido">
-                    <h3>Os melhores vestidinhos que você vai ver na sua vida!</h3>
+                    <img src="img/marivest.png" alt="vestido">
+                    <h3>Marivest Modas</h3>
                     <time>Agosto, 2017</time>
                 </div>
             </div>
 
             <div class="item">
                 <div class="item-inner">
-                    <img src="img/shop.jpg" alt="vestido">
-                    <h3>Os melhores vestidinhos que você vai ver na sua vida!</h3>
+                    <img src="img/rosebombom.png" alt="vestido">
+                    <h3>Rosê Bombom</h3>
                     <time>Agosto, 2017</time>
                 </div>
             </div>
 
             <div class="item">
                 <div class="item-inner">
-                    <img src="img/shop.jpg" alt="vestido">
-                    <h3>Os melhores vestidinhos que você vai ver na sua vida!</h3>
+                    <img src="img/marivest.png" alt="vestido">
+                    <h3>Marivest Modas</h3>
                     <time>Agosto, 2017</time>
                 </div>
             </div>
 
             <div class="item">
                 <div class="item-inner">
-                    <img src="img/shop.jpg" alt="vestido">
-                    <h3>Os melhores vestidinhos que você vai ver na sua vida!</h3>
+                    <img src="img/rosebombom.png" alt="vestido">
+                    <h3>Rosê Bombom</h3>
                     <time>Agosto, 2017</time>
                 </div>
             </div>
