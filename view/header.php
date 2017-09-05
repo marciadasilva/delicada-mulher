@@ -10,50 +10,62 @@
 
 </head>
 <body>
+     <div class="modal fade" id="janela">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">
+                    <span>&times;</span>
+                    </button>
+                    <h4 class="modal-title">Sobre a Delicada Mulher - Moda Feminina</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <p>Desde 2007 desenvolvemos Soluções em TI e Internet, buscando auxiliar nossos clientes na conquista do sucesso e satisfazer os usuários que utilizam nossas soluções.</p>
+              
+                            <p>Acreditamos que através da Tecnologia e da Internet, podemos tornar as empresas mais rentáveis e melhorar as experiências diárias das pessoas.</p>
+              
+                            <h5>Missão:</h5>
+              
+                            <p>Fortalecer as organizações e melhorar seus resultados, com de soluções de alta qualidade em tecnologia da informação.</p>
+              
+                            <h5>Acreditamos:</h5>
+              
+                            <p>Na Tecnologia como meio para melhorar a vida das pessoas;</p>
+                            <p>Na Tecnologia como ferramenta para tornar as empresas mais eficientes e lucrativas;</p>
+                            <p>Na importância da qualidade em tudo;</p>
+                            <p>Na vantagem do preço justo, com trabalho sério e honesto;</p>
+                            <p>Na alegria de servir e no prazer de obter resultados;</p>
+                            <p>No nosso sucesso e de nossos clientes.</p>
+                        </div>
 
-<div class="modal fade" id="janela">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal">
-                <span>&times;</span>
-                </button>
-                <h4 class="modal-title">Sobre a Delicada Mulher - Moda Feminina</h4>
+                        <div class="col-md-7">
+                           <h5>Equipe:</h5>               
+                           <p>Somos um time, tentamos fazer sempre o melhor, e para isso estamos sempre aprendendo, principalmente entre nós
+                           mesmos.</p><br><br><br><br>
+                           <p> Priscila B. da Silva</p>
+                        </div>
+                        <div class="col-md-5">	
+                            <div class="img-modal"> 
+                                <img src="img/owner.jpg" alt="vestido">
+                            </div>	
+                        </div>
+                        
+                        
+                    </div>
+                </div>
+    
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">
+                        Fechar
+                    </button>
+                </div>
             </div>
-
-            <div class="modal-body">
-                Desde 2007 desenvolvemos Soluções em TI e Internet, buscando auxiliar nossos clientes na conquista do sucesso e satisfazer os usuários que utilizam nossas soluções.
-
-                Acreditamos que através da Tecnologia e da Internet, podemos tornar as empresas mais rentáveis e melhorar as experiências diárias das pessoas.
-
-                Missão:
-
-                Fortalecer as organizações e melhorar seus resultados, com de soluções de alta qualidade em tecnologia da informação.
-
-                Acreditamos:
-
-                Na Tecnologia como meio para melhorar a vida das pessoas;
-                Na Tecnologia como ferramenta para tornar as empresas mais eficientes e lucrativas;
-                Na importância da qualidade em tudo;
-                Na vantagem do preço justo, com trabalho sério e honesto;
-                Na alegria de servir e no prazer de obter resultados;
-                No nosso sucesso e de nossos clientes.
-                Equipe:
-
-                Somos um time, tentamos fazer sempre o melhor, e para isso estamos sempre aprendendo, principalmente entre nós mesmos.
-            </div>
-
-            <div class="modal-footer">
-                <button type="button" class="btn btn-primary" data-dismiss="modal">
-                    Fechar
-                </button>
-            </div>
-
         </div>
     </div>
-</div>
 
-<header>
+<header>    
     <div class="header-black">
         <div class="container">
             <div class="row">

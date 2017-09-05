@@ -16,6 +16,7 @@ header {
     background-color: rgba(219, 10, 91, .7);
     z-index: 2;
     position: relative;
+    /*position: fixed; top:0; left: 0;*/
 }
 
 header .container {
@@ -113,6 +114,12 @@ header #bag {
 #menu li.search .input-group {
     top:8px;
 }
+
+/*configuração da Janela modal Sobre*/
+.img-modal img {
+    box-shadow: 2px 2px 2px rgba(0,0,0,.6);
+}
+/*configuração da Janela modal Sobre*/
 
 
 /*fim do cabeçalho*/
@@ -245,6 +252,7 @@ header #bag {
 /* inicio do rodapé*/
 footer {
     margin-top: 110px;
+    width: 100%;
 }
 
 footer .row {
