@@ -386,8 +386,88 @@ footer .list-sociais i {
 
 #btn-bars, #btn-search,
  #btn-news-prev {
-
+    display: none;
  }
 .page-up {
     display: none!important;
 }
+
+/*pagina de visualização do produto*/
+
+.text-arial-cinza {
+    font-family: arial;
+    font-size: 12px;
+    color: #666;
+}
+
+.text-arial-rosa {
+    color: #DB0A5B;
+}
+
+#produto-selecionado {
+    position: relative;
+}
+
+#detalhes-produto-selecionado .item {
+    padding: 60px 0;
+}
+
+#detalhes-produto-selecionado .col-imagem {
+    text-align: center;
+}
+
+#detalhes-produto-selecionado .col-descricao h2 {
+    font-family: Arial;
+    font-size: 20px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+#detalhes-produto-selecionado .col-descricao .box-valor {
+    width: 100%;
+    position: relative;
+}
+
+#detalhes-produto-selecionado .col-descricao .box-valor .text-reais {
+    font-size: 18px;
+    font-weight: bold;
+    position: absolute;
+    top: 13px;
+    left: 29px;
+}
+
+#detalhes-produto-selecionado .col-descricao .box-valor .text-valor {
+    font-size: 50px;
+    font-weight: bold;
+    position: absolute;
+    top: -15px;
+    left: 57px;
+}
+
+#detalhes-produto-selecionado .col-descricao .box-valor .text-valor-centavos {
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    top: -8px;
+    left: 182px;
+    
+}
+
+.btn-comprar {
+    font-size: 26px;
+    padding: 15px 0;
+}
+
+.btn-comprar .fa{
+    font-size: 34px;
+}
+
+#detalhes-produto-selecionado .col-descricao .text-parcelas {
+    margin-top: 20px;
+}
+
+}
+
+
+
+
