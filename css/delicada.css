@@ -9,89 +9,95 @@
     font-size: 1em;
 }
 
+/* =========== LAYOUT =========== */
 
-header {
-    width: 100%;
-    height: 160px;
-    background-color: rgba(219, 10, 91, .7);
-    z-index: 2;
-    position: relative;
-    /*position: fixed; top:0; left: 0;*/
+html, body, .capa{
+    height: 100%;
 }
 
-header .container {
-    position: relative;
+body{
+    background: url('../img/banner.png'),  /* Imagem opaca */
+                url('../img/ruido.png'), /* Roxo fraco (não sobrescreve porque as 2 são opaca)*/
+                linear-gradient(50deg, white, rgba(219, 10, 91, .7));
+    background-attachment: fixed; /* Deixar imagem de fundo fixa */
+    font-family: OpenSans; /* Padrão ser no body isso */
+    overflow-x: hidden;  /* esconder barra de navegação */
 }
 
-header .header-black {
-    background-color: #171f26;
+/* Barra de navegação */
+
+/*.img-logo{
     height: 40px;
+    width: 132px;
+    display: block; /* Por causa do span */
+   /* background: url('../img/logo.png') no-repeat;
+    background-size: contain; /* Mesmo tamanho definido na classe */
+   /* color: transparent; /* Importante deixar o texto para os leitores de tela */
+/*}*/
+
+/* Gambiarra */
+.img-logo{
+    height: 75px;
+    width: 150px;
+    position: absolute;
+    top: 5px;
 }
 
-header .header-black li {
-    display: inline-block;
-    margin: 6px;
-    font-family: "Open Sans";
+/* Fim Gambiarra */
+
+nav.navbar-transparente{
+    padding: 15px 0px;
+    background-color: rgba(219, 10, 91, .7);
+    border: none;
 }
 
-header .header-black li a{
-    color: #fff;
-    font-size: 12px;
-    padding: 10px 8px;
+.navbar-brand{
+    padding: 5px 15px; /* Sobreescrever class do bootstrap*/
+}
+
+.divisor{
+    width: 1px;
+    height: 16px;
+    background: white;
+    margin: 16px 10px;
+}
+
+.navbar-inverse .navbar-nav > li > a, footer .nav a {
+    /* Copiado do inspecionar. (sinal > significa selecionar o filho imediato)*/
+    color: white;
     font-weight: bold;
 }
-
-header .header-black i {
-    font-size: 16px;
-    padding: 4px;
+.navbar-inverse .navbar-nav > li > a:active, footer .nav a:active,
+.navbar-inverse .navbar-nav > li > a:hover, footer .nav a:hover{
+    color: #9bf0e1;
+    background: none;
+    /*color: rgba(219, 10, 91, .7);
+    background-color: white;*/
 }
 
-header #logotipo {
-    position: absolute;
-    top: -47px;
-}
-
-header #bag {
-    font-size: 25px;
-}
-
-#menu {
-    margin:26px 0;
-}
-
-#menu li {
-    display: inline-block;
-    font-family: "Open Sans";
-  }
-
-#menu li.search {
-    width: 182px;
+.search {
+    /*transition-timing-function: cubic-bezier(1, -.91, .91, 1);*/
+    width: 250px;
     transition-timing-function: cubic-bezier(1, -.91, .91, 1);
     transition-duration: 1s;
 }
 
-#menu li.search.ativo {
-    width: 300px;
-}
-
-#menu li.search input {
+.search input {
+    width: 250px;
     background-color: rgb(219, 10, 91);
-    color: #fff;
+    color: white;
     border: none;
     height: 30px;
+    font-weight: bold;
     line-height: 30px;
     padding-left: 8px;
 }
 
-#menu li.search.ativo input{
-    width: 300px;
-}
+/*.nav li.search ::-webkit-input-placeholder {
+    color: white;
+}*/
 
-#menu li.search ::-webkit-input-placeholder {
-    color: #fff;
-}
-
-#menu li.search button {
+.search button {
     background: none;
     border: none;
     position: absolute;
@@ -99,297 +105,140 @@ header #bag {
     top: 7px;
 }
 
-#menu li.search button i {
+.search button i {
     font-size: 14px;
     color: rgba(255, 255, 255, .5);
 }
 
-#menu li a {
-    color: #fff;
-    font-size: 16px;
-    padding: 10px 25px;
-    font-weight: bold;
+.search .input-group {
+    margin:10px 0px;
+    margin-left: auto;
 }
 
-#menu li.search .input-group {
-    top:8px;
-}
+/* Imagem de capa */
 
-/*configuração da Janela modal Sobre*/
-.img-modal img {
-    box-shadow: 2px 2px 2px rgba(0,0,0,.6);
-}
-/*configuração da Janela modal Sobre*/
-
-
-/*fim do cabeçalho*/
-
-#banner {
+.capa{
+    display: table; /* Para centralizar */
     width: 100%;
-    height: 768px;
-    position: relative;
-    background: url("../img/b1.jpg");
-    font-family: "Open Sans-Light";
-    background-position: 0px -100px;
-    top:-140px;
 }
 
-#banner h1 {
-    color: #fff;
-    top: 630px;
-    position: relative;
-    font-size: 95px;
-    text-shadow: 2px 2px 2px rgba(0,0,0,.45);
-    font-family: "Open Sans-Light";
-    margin-left: 50px;
-}
-
-#destaques {
-    position: relative;
-    top: -130px;
-}
-
-#destaques h2 {
-    color: #DB0A5B;
-    font-family: "Open Sans-Light";
-    font-size: 48px;
-    text-transform: uppercase;
+.texto-capa{
     text-align: center;
-    margin-top: 85px;
+    color: white;
+    display: table-cell; /* Para centralizar */
+    vertical-align: middle;
 }
 
-#destaques hr {
-    border: #fde192 solid 8px;
-    width: 200px;
-    margin: 0 auto;
+/* Botões da capa */
+
+.btn-custom{
+    color: white;
+    border-radius: 500px;
+    -webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+    text-transform: uppercase;
+    transition: background 0.4s, color 0.4s;
 }
 
-#destaques .thumbnails {
-    margin-top: 30px;
+.btn-roxo{
+    background: rgba(219, 10, 91, .7);
 }
 
-#destaques .thumbnails h3 {
-    color: #DB0A5B;
-    font-size: 18px;
-    font-family: "Open Sans";
-    font-weight: bold;
-    margin-bottom: 0;
+.btn-roxo:hover{
+    background-color: white;
+    color: black;
 }
 
-#destaques .thumbnails time {
-    color: #a7a7a7;
-    font-size: 18px;
-    font-family: "Open Sans";
+.btn-branco{
+    background-color: white;
+    color: black;
 }
 
-#destaques .thumbnails .item-inner {
-    padding: 10px;
+.btn-branco:hover{
+    background-color: rgba(219, 10, 91, .7);
+    color: white;
 }
 
-#destaques .thumbnails .item-inner img {
+/* Seção serviço */
+
+#lancamentos{
+    background: rgba(255, 255, 255, .6);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.albuns{
+    padding: 10px 0px 10px 0px;
+}
+
+.categoria {
+    display: table;
     width: 100%;
-}
-
-#visita {
-    background-color: #DB0A5B;
-    width: 100%;
+    background: url("../img/pose2.jpg");
+    background-size: contain;
     height: 400px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, .6);
+    border-radius: 10px;
+}
+
+.nome-categoria{
     text-align: center;
+    display: table-cell; /* Para centralizar */
+    vertical-align: bottom;
 }
 
-#visita p{
-    color: #fde092;
-    text-transform: uppercase;
-    font-family: "Open Sans-Light";
-    font-size: 64px;
-    margin-top: 36px;
-}
-
-#lojas .thumbnails {
-    margin-top: 30px;
-}
-
-#lojas {
-    margin-top: 105px;
-}
-
-#lojas h2 {
-    color: #DB0A5B;
-    font-family: "Open Sans-Light";
-    font-size: 48px;
-    text-transform: uppercase;
-    text-align: center;
-}
-#lojas hr {
-      border:#FDE192 solid 8px;
-      width: 200px;
-      margin: 0 auto;
-}
-
-#lojas .thumbnails h3 {
-    color: #DB0A5B;
-    font-size: 18px;
-    font-family: "Open Sans";
-    font-weight: bold;
-    margin-bottom: 0;
-}
-
-#lojas .thumbnails time {
-    color: #a7a7a7;
-    font-size: 18px;
-    font-family: "Open Sans";
-}
-
-#lojas .thumbnails .item-inner {
-    padding: 10px;
-}
-
-#lojas .thumbnails .item-inner img {
-    width: 100%;
-}
-
-
-/* inicio do rodapé*/
-footer {
-    margin-top: 110px;
-    width: 100%;
-}
-
-footer .row {
-    width: 100%;
-}
-
-footer .row p{
-    line-height: 55px;
-    margin-bottom: 0;
-}
-
-footer .row-cinza-claro {
-    height: 200px;
+.btn-categoria{
+    color: white;
     background-color: #171f26;
-}
-
-footer .row-cinza-escuro {
-    height: 60px;
-    background-color: #11171d;
-    border-top: #242d37 1px solid;
-}
-
-footer .pull-left {
-    font-family: "Open Sans";
-    font-size: 14px;
-    color: #666;
-}
-
-footer .text-roxo {
-    color: #DB0A5B;
-    font-family: "Open Sans";
-    font-weight: bold;
-    font-size: 14px;
-}
-
-footer .logotipo {
-    margin-top: 23px;
-    margin-left: -150px;
-}
-
-footer .col-popular-post,
-footer .col-links,
-footer .col-entre-em-contato {
-    margin-top: 40px;
-}
-
-footer .row-cols h4 {
-    font-family: "Open Sans";
-    font-size: 16px;
-    color: #fff;
-    padding-bottom: 17px;
-    border-bottom: #242d37 1px solid;
-}
-
-footer .row-cols h5 {
-    font-family: Arial;
-    color: #666;
-    font-size: 14px;
-    margin-bottom: 0;
-}
-
-footer .row-cols time {
-    font-family: Arial;
-    color: #fde092;
-    font-size: 14px;
-}
-
-footer .col-links a {
-    color: #fff;
-    font-family: Arial;
-    font-size: 14px;
-}
-
-footer .col-links .fa {
-    margin:0 6px;
-}
-
-footer .col-entre-em-contato address {
-    color: #666;
-    font-family: Arial;
-    font-size: 14px;
-    margin-bottom: 6px;
-}
-
-footer .col-entre-em-contato address span{
-    display: inline-block;
-}
-
-footer .col-entre-em-contato address i{
-    position: relative;
-    top: -14px;
-}
-
-footer .col-entre-em-contato i{
-    color: #b9b9b9;
-    font-size: 20px;
-    margin: 0 6px;
-}
-
-footer .col-entre-em-contato a{
-    color: #666;
-}
-
-footer .col-entre-em-contato p{
-    line-height: 20px;
-}
-
-footer .list-sociais {
-    margin-top: 4px;
-}
-
-footer .list-sociais li {
-    display: inline-block;
-    margin-right: 8px;
-}
-
-footer .list-sociais a {
-    display: block;
-    border: #9b9b9b 1px solid;
-    width: 28px;
-    height: 28px;
-    line-height: 28px;
-    border-radius: 14px;
-    text-align: center;
-}
-
-footer .list-sociais i {
-    font-size: 16px;
-    margin: 7px auto;
-}
-
-#btn-bars, #btn-search,
- #btn-news-prev {
-    display: none;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    padding: 8px 30px;
  }
-.page-up {
-    display: none!important;
+
+.btn-categoria:hover{
+    color: white;
+    text-shadow: 0px 0px 4px rgb(255,255,255);
+    text-transform: uppercase;
+}
+
+/* Seção recursos */
+#section-loja{
+    width: 100%;
+    /*background-color: rgba(219, 10, 91, .7);*/
+    background-color: white;
+}
+.loja{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+    display: table; /* Para centralizar */
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.texto-loja{
+    text-align: center;
+    color: white;
+    display: table-cell; /* Para centralizar */
+    vertical-align: middle;
+}
+
+/* Rodapé */
+
+footer{
+    background:  #171f26;
+    padding: 50px 0px 20px 0px;
+    position: relative;
+}
+
+.item-rede-social{
+    float: right;
+    text-align: center;
+    font-size: 64px;
+}
+
+.item-rede-social i{
+    padding: 10px;
 }
 
 /*pagina de visualização do produto*/
@@ -406,6 +255,9 @@ footer .list-sociais i {
 
 #produto-selecionado {
     position: relative;
+    background: white;
+    width: 100%;
+    top: 80px;
 }
 
 #detalhes-produto-selecionado .item {
@@ -450,7 +302,7 @@ footer .list-sociais i {
     position: absolute;
     top: -8px;
     left: 182px;
-    
+
 }
 
 .btn-comprar {
@@ -466,8 +318,100 @@ footer .list-sociais i {
     margin-top: 20px;
 }
 
+/* =========== TEXTO  ===========*/
+h1{
+    /*font-size: 75px; no query*/
+    font-family: OpenSans-Light;
+    font-weight: 900;
+    letter-spacing: -0.05em; /* Quando a fonte é muito grande, precisa diminuir espaçamento*/
+    margin-bottom: 50px;
+    text-shadow: 2px 2px 2px rgba(0,0,0,.7);
 }
 
+/* Media queries*/
+/* xs */
+@media screen and (max-width: 767px){ /* Até 767 */
+    h1{
+        font-size: 50px;
+    }
+    .btn-custom{
+        margin: 10px 15px;
+    }
+}
 
+/* sm */
+@media screen and (min-width: 768px){/* De 768 até 992 */
+    h1{
+        font-size: 60px;
+    }
+    .search.ativo {
+        width: 200px;
+    }
 
+    .search.ativo input{
+        width: 200px;
+    }
+}
 
+/* md  */
+@media screen and (min-width: 992px){ /* De 992 até 1200 */
+    h1{
+        font-size: 70px;
+    }
+    .search.ativo {
+        width: 300px;
+    }
+
+    .search.ativo input{
+        width: 300px;
+    }
+}
+
+/* lg */
+@media screen and (min-width: 1200px){ /* Acima de 1200px */
+    h1{
+        font-size: 75px;
+    }
+    .search.ativo {
+        width: 500px;
+    }
+
+    .search.ativo input{
+        width: 500px;
+    }
+}
+
+h2{
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+}
+
+h3{
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+}
+
+.navbar-inverse .navbar-nav > li > a{
+    font-family: "Open Sans";
+    font-size: 16px;
+}
+
+#rodape h4{
+    color: #919496;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+#lancamentos h2{
+    color: rgba(219, 10, 91, .7);
+}
+
+.texto-loja h3{
+    text-transform: uppercase;
+    font-family: OpenSans-Light;
+    font-weight: 100;
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, .5);
+    background-color: black;
+}

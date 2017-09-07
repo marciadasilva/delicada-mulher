@@ -7,7 +7,7 @@
         <div id="detalhes-produto-selecionado">
             <div class="item">
                 <div class="col-sm-8 col-imagem">
-                    <img src="img/produtos/produtos1.jpg">
+                    <img src="img/produtos/produtos1.jpg" class="img-responsive">
                 </div>
                 <div class="col-sm-4 col-descricao">
                     <h2>Vestido GG de Viscose</h2>
