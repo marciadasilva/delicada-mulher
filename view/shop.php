@@ -6,17 +6,30 @@
         
         <div id="detalhes-produto-selecionado">
             <div class="item">
-                <div class="col-sm-8 col-imagem">
-                    <img src="img/produtos/produtos1.jpg" class="img-responsive">
+                <div class="col-md-7 col-imagem">
+                    <div class="row">
+                        <div class="col-md-5 miniaturas">
+                            <!-- <div class="mini-01"></div>
+                             <div class="mini-02"></div>
+                             <div class="mini-03"></div>
+                             <div class="mini-04"></div>
+ -->
+                         </div>
+                         <div class="col-md-7">
+                             <img src="img/produtos/produtos1.jpg" class="img-responsive">
+                         </div>
+
+                     </div>
+
                 </div>
-                <div class="col-sm-4 col-descricao">
+                <div class="col-md-5 col-descricao">
                     <h2>Vestido GG de Viscose</h2>
                     <div class="box-valor">
                         <div class="text-avista text-arial-cinza">no boleto</div>
                         <div class="text-por text-arial-cinza">por</div>
                         <div class="text-reais text-arial-rosa">R$</div>
-                        <div class="text-valor text-arial-rosa">1.259</div>
-                        <div class="text-valor-centavos text-arial-rosa">, 50</div>
+                        <div class="text-valor text-arial-rosa">124</div>
+                        <div class="text-valor-centavos text-arial-rosa">, 84</div>
                         <div class="text-parcelas text-arial-cinza">ou em até 4x de R$ 31,21</div>
                         <div class="text-total text-arial-cinza">total a prazo R$ 124,84</div>
                     </div>

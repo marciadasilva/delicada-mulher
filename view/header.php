@@ -95,7 +95,7 @@
 
             <!-- imagem logo -->
             <a href="index.php" class="navbar-brand">
-                <img class="img-logo" src="img/logo.png" alt="DelicadaLogo" id="logotipo">
+                <img class="img-logo" src="img/logo-r.png" alt="DelicadaLogo" id="logotipo">
             </a>
             <!-- /imagem logo -->
 

@@ -31,7 +31,7 @@
             <!-- albuns -->
             <div class="col-md-3">
                 <div class="categoria">
-                    <div class="nome-categoria">
+                    <div class="nome-categoria foto-categoria-blusas">
                         <button class="btn btn-categoria">Blusas</button>
                     </div>
                 </div>
@@ -42,7 +42,7 @@
             <!-- servicos -->
             <div class="col-md-3">
                 <div class="categoria">
-                    <div class="nome-categoria">
+                    <div class="nome-categoria foto-categoria-calcas">
                         <button class="btn btn-categoria">Calças</button>
                     </div>
                 </div>
@@ -52,7 +52,7 @@
             <!-- albuns -->
             <div class="col-md-3">
                 <div class="categoria">
-                    <div class="nome-categoria">
+                    <div class="nome-categoria foto-categoria-saias">
                         <button class="btn btn-categoria">Saias</button>
                     </div>
                 </div>
@@ -63,7 +63,7 @@
             <!-- servicos -->
             <div class="col-md-3">
                 <div class="categoria">
-                    <div class="nome-categoria">
+                    <div class="nome-categoria foto-categoria-vestidos">
                         <button class="btn btn-categoria">Vestidos</button>
                     </div>
                 </div>
@@ -106,23 +106,17 @@
                     </ol>
 
                     <!-- Wrapper for slides -->
-                    <div class="carousel-inner" style="box-shadow: 2px 2px 2px rgba(255,255,255,.7);">
+                    <div class="carousel-inner carousel-ofertas">
                         <div class="item active">
-                            <img src="img/pose1.jpg" alt="Pose 1" class="img-responsive"
-                                 style="width:100%;
-                                        height: 450px;">
+                            <img src="img/l1.jpg" alt="Pose 1" class="img-responsive">
                         </div>
 
                         <div class="item">
-                            <img src="img/pose1.jpg" alt="Pose 2" class="img-responsive"
-                                 style="width:100%;
-                                        height: 450px;">
+                            <img src="img/l2.gif" alt="Pose 2" class="img-responsive">
                         </div>
 
                         <div class="item">
-                            <img src="img/pose1.jpg" alt="Pose 3" class="img-responsive"
-                                 style="width:100%;
-                                        height: 450px;">
+                            <img src="img/l3.jpg" alt="Pose 3" class="img-responsive">
                         </div>
                     </div>
 
