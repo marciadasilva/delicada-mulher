@@ -1,0 +1,569 @@
+@font-face {
+    font-family: 'Open Sans';
+    src: url("../fonts/Open_Sans/OpenSans-Regular.ttf");
+    font-size: 1em;
+}
+@font-face {
+    font-family: 'Open Sans-Light';
+    src: url("../fonts/Open_Sans/OpenSans-Light.ttf");
+    font-size: 1em;
+}
+
+/* =========== LAYOUT =========== */
+
+html, body, .capa{
+    height: 100%;
+}
+
+body{
+    background: url('../img/banner.png'),  /* Imagem opaca */
+    url('../img/ruido.png'), /* Roxo fraco (não sobrescreve porque as 2 são opaca)*/
+    linear-gradient(50deg, white, rgba(219, 10, 91, .7));
+    background-attachment: fixed; /* Deixar imagem de fundo fixa */
+    font-family: OpenSans; /* Padrão ser no body isso */
+    overflow-x: hidden;  /* esconder barra de navegação */
+}
+
+/* Barra de navegação */
+
+/*.img-logo{
+    height: 40px;
+    width: 132px;
+    display: block; /* Por causa do span */
+/* background: url('../img/logo.png') no-repeat;
+ background-size: contain; /* Mesmo tamanho definido na classe */
+/* color: transparent; /* Importante deixar o texto para os leitores de tela */
+/*}*/
+
+/* Gambiarra */
+.img-logo{
+    height: 75px;
+    width: 150px;
+    position: absolute;
+    top: 5px;
+}
+
+/* Fim Gambiarra */
+
+nav.navbar-transparente{
+    padding: 15px 0px;
+    background-color: rgba(219, 10, 91, .7);
+    border: none;
+}
+
+.navbar-brand{
+    padding: 5px 15px; /* Sobreescrever class do bootstrap*/
+}
+
+.divisor{
+    width: 1px;
+    height: 16px;
+    background: white;
+    margin: 16px 10px;
+}
+
+.navbar-inverse .navbar-nav > li > a, footer .nav a {
+    /* Copiado do inspecionar. (sinal > significa selecionar o filho imediato)*/
+    color: white;
+    font-weight: bold;
+}
+.navbar-inverse .navbar-nav > li > a:active, footer .nav a:active,
+.navbar-inverse .navbar-nav > li > a:hover, footer .nav a:hover{
+    color: #9bf0e1;
+    background: none;
+    /*color: rgba(219, 10, 91, .7);
+    background-color: white;*/
+}
+
+.search {
+    /*transition-timing-function: cubic-bezier(1, -.91, .91, 1);*/
+    width: 250px;
+    transition-timing-function: cubic-bezier(1, -.91, .91, 1);
+    transition-duration: 1s;
+}
+
+.search input {
+    width: 250px;
+    background-color: rgb(219, 10, 91);
+    color: white;
+    border: none;
+    height: 30px;
+    font-weight: bold;
+    line-height: 30px;
+    padding-left: 8px;
+}
+
+/*.nav li.search ::-webkit-input-placeholder {
+    color: white;
+}*/
+
+.search button {
+    background: none;
+    border: none;
+    position: absolute;
+    right: 3px;
+    top: 7px;
+}
+
+.search button i {
+    font-size: 14px;
+    color: rgba(255, 255, 255, .5);
+}
+
+.search .input-group {
+    margin:10px 0px;
+    margin-left: auto;
+}
+
+/* Imagem de capa */
+
+.capa{
+    display: table; /* Para centralizar */
+    width: 100%;
+}
+
+.texto-capa{
+    text-align: center;
+    color: white;
+    display: table-cell; /* Para centralizar */
+    vertical-align: middle;
+}
+
+/* Botões da capa */
+
+.btn-custom{
+    color: white;
+    border-radius: 500px;
+    -webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+    text-transform: uppercase;
+    transition: background 0.4s, color 0.4s;
+}
+
+.btn-roxo{
+    background: rgba(219, 10, 91, .7);
+}
+
+.btn-roxo:hover{
+    background-color: white;
+    color: black;
+}
+
+.btn-branco{
+    background-color: white;
+    color: black;
+}
+
+.btn-branco:hover{
+    background-color: rgba(219, 10, 91, .7);
+    color: white;
+}
+
+/* Seção serviço */
+
+#lancamentos{
+    background: rgba(255, 255, 255, .6);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.albuns{
+    padding: 10px 0px 10px 0px;
+}
+
+
+.categoria {
+    display: table;
+    width: 100%;
+    height: 400px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, .6);
+    border-radius: 10px;
+    transition-duration: 0.5s;
+}
+
+.categoria:hover {
+    transform: scale(1.05);
+}
+
+.foto-categoria-blusas {
+    background: url("../img/blusa.jpg")no-repeat;
+    background-size: cover;
+}
+
+.foto-categoria-calcas {
+    background: url("../img/calca.jpg")no-repeat;
+    background-size: cover;
+}
+.foto-categoria-saias {
+    background: url("../img/saia2.jpg")no-repeat;
+    background-size: cover;
+}
+.foto-categoria-vestidos {
+    background: url("../img/vestido.jpg")no-repeat;
+    background-size: cover;
+}
+
+.nome-categoria{
+    text-align: center;
+    display: table-cell; /* Para centralizar */
+    vertical-align: bottom;
+}
+
+.btn-categoria{
+    color: white;
+    background-color: #171f26;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    padding: 8px 30px;
+}
+
+.btn-categoria:hover{
+    color: white;
+    text-shadow: 0px 0px 4px rgb(255,255,255);
+    text-transform: uppercase;
+}
+
+/* Seção recursos */
+#section-loja{
+    width: 100%;
+    /*background-color: rgba(219, 10, 91, .7);*/
+    background-color: white;
+}
+.loja{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+    display: table; /* Para centralizar */
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.texto-loja{
+    text-align: center;
+    color: white;
+    display: table-cell; /* Para centralizar */
+    vertical-align: middle;
+}
+
+/* Rodapé */
+
+footer{
+    background:  #171f26;
+    padding: 50px 0px 20px 0px;
+    position: relative;
+}
+
+.item-rede-social{
+    float: right;
+    text-align: center;
+    font-size: 64px;
+}
+
+.item-rede-social i{
+    padding: 10px;
+}
+
+/*pagina de visualização do produto*/
+
+.text-arial-cinza {
+    font-family: arial;
+    font-size: 12px;
+    color: #666;
+}
+
+.text-arial-rosa {
+    color: #DB0A5B;
+}
+
+.miniaturas {
+    padding: 5px;
+    margin: 5px 0;
+    /* border: 1px solid red;*/
+    list-style-type: none;
+}
+
+.mini-01 {
+    background-image: url("../img/saia.jpg");
+    background-repeat: no-repeat;
+    background-size: 200px 200px;
+    padding: 12px 0;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+}
+.mini-02 {
+    background-image: url("../img/saia.jpg");
+    background-repeat: no-repeat;
+    padding: 12px 0;
+}
+.mini-03 {
+    background-image: url("../img/saia.jpg");
+    background-repeat: no-repeat;
+    padding: 12px 0;
+}
+.mini-04 {
+    background-image: url("../img/saia.jpg");
+    background-repeat: no-repeat;
+    padding: 12px 0;
+}
+
+#produto-selecionado {
+    position: relative;
+    background: white;
+    width: 100%;
+    top: 80px;
+    padding-bottom: 150px;
+}
+
+#detalhes-produto-selecionado .item {
+    padding: 60px 0;
+}
+
+#detalhes-produto-selecionado .col-imagem {
+    text-align: center;
+}
+
+#detalhes-produto-selecionado .col-descricao h2 {
+    font-family: Arial;
+    font-size: 20px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+#detalhes-produto-selecionado .col-descricao .box-valor {
+    width: 100%;
+    position: relative;
+}
+
+#detalhes-produto-selecionado .col-descricao .box-valor .text-reais {
+    font-size: 18px;
+    font-weight: bold;
+    position: absolute;
+    top: 13px;
+    left: 29px;
+}
+
+#detalhes-produto-selecionado .col-descricao .box-valor .text-valor {
+    font-size: 50px;
+    font-weight: bold;
+    position: absolute;
+    top: -15px;
+    left: 57px;
+}
+
+#detalhes-produto-selecionado .col-descricao .box-valor .text-valor-centavos {
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    top: -8px;
+    left: 132px;
+
+}
+
+.btn-comprar {
+    font-size: 26px;
+    padding: 15px 0;
+}
+
+.btn-comprar .fa{
+    font-size: 34px;
+}
+
+/* Carousel */
+
+.product-f-image {
+    position: relative;
+}
+.product-hover {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;overflow: hidden;border: 1px solid #ddd;
+}
+.product-hover:after {
+    background: none repeat scroll 0 0 #000;
+    content: "";
+    height: 100%;
+    left: -100%;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    width: 100%;transition: .4s;
+}
+.product-hover a {
+    background: none repeat scroll 0 0 #DB0A5B;
+    border-radius: 5px;
+    color: #fff;
+    display: block;
+    font-size: 16px;
+    left: 10%;
+    margin: 0;
+    padding: 10px;
+    position: absolute;
+    text-align: center;
+    text-transform: uppercase;
+    border: 1px solid #DB0A5B;
+    width: 80%;z-index: 99;transition: .4s;
+}
+.product-hover a:hover {
+    background: #fff;
+    text-decoration: none;border-color: #444;
+    color: black;
+}
+.product-carousel-price ins {
+    color: #DB0A5B;
+    font-weight: 700;
+    margin-right: 5px;
+    text-decoration: none;
+}
+.product-hover a i.fa {
+    margin-right: 5px;
+}
+.product-hover a.add-to-cart-link {top: -25%;}
+.product-hover a.view-details-link { bottom: -25%;}
+.single-product h2 {
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
+.single-product h2 a {
+    color: #171f26;
+}
+
+.single-product {
+    overflow: hidden;
+}
+.single-product:hover {}
+.single-product:hover .product-hover a.add-to-cart-link {top: 32%;}
+.single-product:hover .product-hover a.view-details-link {bottom: 32%;}
+.single-product:hover .product-hover:after{left: 0}
+
+
+.product-carousel {
+    padding-top: 40px;
+}
+.latest-product .owl-nav {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.latest-product .owl-nav div, .related-products-wrapper .owl-nav div {
+    background:#DB0A5B;
+    color:#FFF;
+    display: inline-block;
+    margin-left: 15px;
+    padding: 1px 10px;
+}
+.latest-product .owl-nav div:hover, .owl-nav div:hover, .owl-nav div:hover {
+    color: black;
+    background:white;
+}
+
+/* =========== TEXTO  ===========*/
+h1{
+    /*font-size: 75px; no query*/
+    font-family: OpenSans-Light;
+    font-weight: 900;
+    letter-spacing: -0.05em; /* Quando a fonte é muito grande, precisa diminuir espaçamento*/
+    margin-bottom: 50px;
+    text-shadow: 2px 2px 2px rgba(0,0,0,.7);
+}
+
+/* Media queries*/
+/* xs */
+@media screen and (max-width: 767px){ /* Até 767 */
+    h1{
+        font-size: 50px;
+    }
+    .btn-custom{
+        margin: 10px 15px;
+    }
+    .categoria {
+        margin: 10px 0;
+    }
+}
+
+/* sm */
+@media screen and (min-width: 768px){/* De 768 até 992 */
+    h1{
+        font-size: 60px;
+    }
+    .search.ativo {
+        width: 200px;
+    }
+
+    .search.ativo input{
+        width: 200px;
+    }
+    .categoria {
+        margin: 10px 0;
+    }
+}
+
+/* md  */
+@media screen and (min-width: 992px){ /* De 992 até 1200 */
+    h1{
+        font-size: 70px;
+    }
+    .search.ativo {
+        width: 300px;
+    }
+
+    .search.ativo input{
+        width: 300px;
+    }
+    .categoria {
+        margin: 10px 0;
+    }
+}
+
+/* lg */
+@media screen and (min-width: 1200px){ /* Acima de 1200px */
+    h1{
+        font-size: 75px;
+    }
+    .search.ativo {
+        width: 500px;
+    }
+
+    .search.ativo input{
+        width: 500px;
+    }
+}
+
+h2{
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+}
+
+h3{
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+}
+
+.navbar-inverse .navbar-nav > li > a{
+    font-family: "Open Sans";
+    font-size: 16px;
+}
+
+#rodape h4{
+    color: #919496;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+#lancamentos h2{
+    color: rgba(219, 10, 91, .7);
+}
+
+.texto-loja h3{
+    text-transform: uppercase;
+    font-family: OpenSans-Light;
+    font-weight: 100;
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, .5);
+    background-color: black;
+}
