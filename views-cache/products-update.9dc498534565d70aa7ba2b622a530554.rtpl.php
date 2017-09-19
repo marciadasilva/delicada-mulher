@@ -38,7 +38,11 @@
             </div>
             <div class="form-group">
               <label for="vllength">Comprimento</label>
-              <input type="number" class="form-control" id="vllength" name="vllength" step="0.01" placeholder="0.00" value="<?php echo htmlspecialchars( $product["vllength"], ENT_COMPAT, 'UTF-8', FALSE ); ?>">
+              <input type="number" class="forssadasdm-control" id="vllength" name="vllength" step="0.01" placeholder="0.00" value="<?php echo htmlspecialchars( $product["vllength"], ENT_COMPAT, 'UTF-8', FALSE ); ?>">
+            </div>
+            <div class="form-group">
+              <label for="desdescription">Descrição</label>
+              <input type="text" class="form-control" id="desdescription" name="desdescription" placeholder="Digite a descrição do produto" value="<?php echo htmlspecialchars( $product["desdescription"], ENT_COMPAT, 'UTF-8', FALSE ); ?>">
             </div>
             <div class="form-group">
               <label for="vlweight">Peso</label>

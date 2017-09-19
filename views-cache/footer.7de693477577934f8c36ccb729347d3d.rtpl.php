@@ -22,11 +22,9 @@
             </div>
 
             <div class="col-md-2">
-                <h4>Moda</h4>
+                <h4>Categorias</h4>
                 <ul class="nav">
-                    <li><a href="#">Lançamentos</a></li>
-                    <li><a href="#">Feminina</a></li>
-                    <li><a href="#">Masculina</a></li>
+                    <?php require $this->checkTemplate("categories-menu");?>
                 </ul>
             </div>
 
@@ -41,7 +39,7 @@
 
             <div class="col-md-4">
                 <ul class="nav">
-                    <li class="item-rede-social"><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li class="item-rede-social"><a href="#"><i class="fa fa-whatsapp"></i></a></li>
                     <li class="item-rede-social"><a href="#"><i class="fa fa-facebook"></i></a></li>
                     <li class="item-rede-social"><a href="#"><i class="fa fa-instagram"></i></a></li>
                 </ul>
@@ -53,6 +51,8 @@
     <!-- /container -->
 </footer>
 <!-- /rodapé -->
+
+
 
 <!-- Latest jQuery form server -->
 <script src="https://code.jquery.com/jquery.min.js"></script>
@@ -69,6 +69,9 @@
 
 <!-- Main Script -->
 <script src="/res/site/js/main.js"></script>
+
+<!-- arquivo de efeito-->
+<script type="text/javascript" src="/res/site/js/efeitos.js"></script>
 
 <!-- Slider -->
 <script type="text/javascript" src="/res/site/js/bxslider.min.js"></script>

@@ -13,7 +13,7 @@
   <!-- Ionicons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
   <!-- Theme style -->
-  <link rel="stylesheet" href="/res/admin/dist/css/AdminLTE.min.css">
+  <link rel="stylesheet" href="/res/admin/dist/css/AdminLTE.css">
   <!-- iCheck -->
   <link rel="stylesheet" href="/res/admin/plugins/iCheck/square/blue.css">
 
@@ -27,11 +27,11 @@
 <body class="hold-transition login-page">
 <div class="login-box">
   <div class="login-logo">
-    <a href="/res/admin/index2.html"><b>Admin</b>LTE</a>
+    <a href="/res/admin/index2.html"></a>
   </div>
   <!-- /.login-logo -->
   <div class="login-box-body">
-    <p class="login-box-msg">Sign in to start your session</p>
+    <p class="login-box-msg">Área de Administração</p>
 
     <form action="/admin/login" method="post">
       <div class="form-group has-feedback">
@@ -58,7 +58,7 @@
       </div>
     </form>
 
-    <div class="social-auth-links text-center">
+    <!--<div class="social-auth-links text-center">
       <p>- OR -</p>
       <a href="#" class="btn btn-block btn-social btn-facebook btn-flat"><i class="fa fa-facebook"></i> Sign in using
         Facebook</a>
@@ -68,7 +68,7 @@
     <!-- /.social-auth-links -->
 
     <a href="/admin/forgot">I forgot my password</a><br>
-    <a href="register.html" class="text-center">Register a new membership</a>
+    <!--<a href="register.html" class="text-center">Register a new membership</a>-->
 
   </div>
   <!-- /.login-box-body -->

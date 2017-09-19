@@ -4,6 +4,10 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Loja de vendas de roupas femininas"> <!-- aparece na descrição no Google -->
+	<meta name="author" content="Marcia da Silva">
+	<!-- <meta name="robots" content="index, follow"> // para indexar a página index -->
+
 	<title>Delicada Mulher</title>
 	<!-- <link rel="icon" href="imagens/favicon.png"> -->
 
@@ -22,7 +26,6 @@
 	<!-- Custom CSS -->
 	<link rel="stylesheet" href="/res/site/css/owl.carousel.css">
 	<link rel="stylesheet" href="/res/site/css/delicada.css">
-	<link rel="stylesheet" href="/res/site/css/style.css">
 	<link rel="stylesheet" href="/res/site/css/responsive.css">
 
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -88,65 +91,67 @@
 		</div>
 	</div>
 </div>
+<header>
+	<nav class="navbar navbar-fixed-top navbar-inverse navbar-transparente">
+		<!-- container -->
+		<div class="container">
+			<!-- header -->
+			<div class="navbar-header">
 
-<nav class="navbar navbar-fixed-top navbar-inverse navbar-transparente">
-	<!-- container -->
-	<div class="container">
-		<!-- header -->
-		<div class="navbar-header">
+				<!-- botao toggle -->
+				<button class="navbar-toggle collapsed" type="button"
+						data-toggle="collapse" data-target="#barra-navegacao">
+					<span class="sr-only">Alternar navegação</span> <!-- Acessibilidade -->
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<!-- /botao toggle -->
 
-			<!-- botao toggle -->
-			<button class="navbar-toggle collapsed" type="button"
-					data-toggle="collapse" data-target="#barra-navegacao">
-				<span class="sr-only">Alternar navegação</span> <!-- Acessibilidade -->
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-			</button>
-			<!-- /botao toggle -->
+				<!-- imagem logo -->
+				<a href="index.php" class="navbar-brand">
+					<img class="img-logo" src="../res/site/img/logo.png" alt="DelicadaLogo" id="logotipo">
+				</a>
+				<!-- /imagem logo -->
 
-			<!-- imagem logo -->
-			<a href="index.php" class="navbar-brand">
-				<img class="img-logo" src="../res/site/img/logo.png" alt="DelicadaLogo" id="logotipo">
-			</a>
-			<!-- /imagem logo -->
+			</div>
+			<!-- /header -->
+
+			<!-- navbar -->
+			<div class="collapse navbar-collapse" id="barra-navegacao">
+				<ul class="nav navbar-nav navbar-right">
+
+					<li class="search" class="hidden-xs">
+						<div class="input-group">
+							<input type="search" placeholder="pesquisar..." id="input-search">
+							<span class="input-group-btn"><button type="button"><i class="fa fa-search"></i></button></span>
+						</div>
+					</li>
+
+					<li><a href="">Feminino</a> </li>
+					<li><a href="">Masculino</a> </li>
+
+					<li class="divisor" role="separator"></li>
+
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+							<span><i class="fa fa-user"></i></span> Olá <span class="caret"></span>
+						</a>
+						<ul class="dropdown-menu">
+							<li><a href="#">Entrar</a></li>
+							<li><a href="#">Cadastrar-se</a></li>
+							<li><a href="#">Sair</a></li>
+						</ul>
+					</li>
+					<li class="divisor" role="separator"></li>
+					<li><a href="shop.php"><i id="bag" class="fa fa-shopping-bag" style="font-size: 20px"></i></a></li>
+				</ul>
+			</div>
+			<!-- /navbar -->
 
 		</div>
-		<!-- /header -->
+		<!-- /container -->
 
-		<!-- navbar -->
-		<div class="collapse navbar-collapse" id="barra-navegacao">
-			<ul class="nav navbar-nav navbar-right">
+	</nav><!-- /nav -->
 
-				<li class="search" class="hidden-xs">
-					<div class="input-group">
-						<input type="search" placeholder="pesquisar..." id="input-search">
-						<span class="input-group-btn"><button type="button"><i class="fa fa-search"></i></button></span>
-					</div>
-				</li>
-
-				<li><a href="">Feminino</a> </li>
-				<li><a href="">Masculino</a> </li>
-
-				<li class="divisor" role="separator"></li>
-
-				<li class="dropdown">
-					<a href="#" class="dropdown-toggle" data-toggle="dropdown">
-						<span><i class="fa fa-user"></i></span> Olá <span class="caret"></span>
-					</a>
-					<ul class="dropdown-menu">
-						<li><a href="#">Entrar</a></li>
-						<li><a href="#">Cadastrar-se</a></li>
-						<li><a href="#">Sair</a></li>
-					</ul>
-				</li>
-				<li class="divisor" role="separator"></li>
-				<li><a href="shop.php"><i id="bag" class="fa fa-shopping-bag" style="font-size: 20px"></i></a></li>
-			</ul>
-		</div>
-		<!-- /navbar -->
-
-	</div>
-	<!-- /container -->
-
-</nav><!-- /nav -->
+</header>

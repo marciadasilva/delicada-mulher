@@ -50,6 +50,10 @@
               <input type="number" class="form-control" id="vlweight" name="vlweight" step="0.01" placeholder="0.00">
             </div>
             <div class="form-group">
+              <label for="desdescription">Descrição</label>
+              <input type="text" class="form-control" id="desdescription" name="desdescription">
+            </div>
+            <div class="form-group">
               <label for="desurl">URL</label>
               <input type="text" class="form-control" id="desurl" name="desurl">
             </div>
