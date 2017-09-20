@@ -39,10 +39,10 @@
             </div>
         </div>
 
-        <a onclick="change_color()" class="left carousel-control" href="#carousel-example" data-slide="prev">
+        <a onclick="change_color(-1)" class="left carousel-control" href="#carousel-example" data-slide="prev">
             <span class="glyphicon glyphicon-chevron-left"></span>
         </a>
-        <a onclick="change_color()" class="right carousel-control" href="#carousel-example" data-slide="next">
+        <a onclick="change_color(1)" class="right carousel-control" href="#carousel-example" data-slide="next">
             <span class="glyphicon glyphicon-chevron-right"></span>
         </a>
     </div>

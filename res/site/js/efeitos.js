@@ -75,7 +75,15 @@ $(document).ready(function(){
 
 var number = 1;
 
-function change_color(){
+function change_color(value){
+
+	if(number == 1 && value == -1){
+        number = 3;
+	} else if (number == 3 && value == 1){
+		number = 1;
+    } else{
+		number += value;
+	}
 
     switch(number){
         case 1:
@@ -86,11 +94,11 @@ function change_color(){
             break;
         case 3:
             $(".change_color").css("color","red");
-            number = 0;
+            if (number == 1 && value == 1){
+            	number = 1;
+            }
             break;
     }
-
-    number++;
 
 }
 
