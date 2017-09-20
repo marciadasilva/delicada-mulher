@@ -16,27 +16,28 @@ html, body, .capa{
 }
 
 body{
-    /*background: url('../img/banner.png'),  /* Imagem opaca */
-    url('../img/ruido.png'), /* Roxo fraco (não sobrescreve porque as 2 são opaca)*/
-    linear-gradient(50deg, white, rgba(219, 10, 91, .7));
+    background-color: #f5f5f5;
+    /*background: url('../img/asfalt-dark.png');  /* Imagem opaca */
+    /*url('../img/ruido.png'), /* Roxo fraco (não sobrescreve porque as 2 são opaca)*/
+    /*linear-gradient(50deg, white, rgba(219, 10, 91, .7));
     background-attachment: fixed; /* Deixar imagem de fundo fixa */
-    font-family: "raleway"; /* Padrão ser no body isso */
+    font-family: "Proxima Nova"; /* Padrão ser no body isso */
     overflow-x: hidden;  /* esconder barra de navegação */
 }
 
 /* Barra de navegação */
 
-/*.img-logo{
-    height: 40px;
+.img-logo{
+    height: 50px;
     width: 132px;
     display: block; /* Por causa do span */
-/* background: url('../img/logo.png') no-repeat;
+ background: url('../img/logo-menu.png') no-repeat;
  background-size: contain; /* Mesmo tamanho definido na classe */
-/* color: transparent; /* Importante deixar o texto para os leitores de tela */
-/*}*/
+ color: transparent; /* Importante deixar o texto para os leitores de tela */
+}
 
 /* Gambiarra */
-.img-logo{
+/*.img-logo{
     height: 75px;
     width: 150px;
     position: absolute;
@@ -47,7 +48,7 @@ body{
 
 nav.navbar-transparente{
     padding: 15px 0px;
-    background-color: rgba(219, 10, 91, .7);
+    background-color: transparent;
     border: none;
 }
 
@@ -64,12 +65,12 @@ nav.navbar-transparente{
 
 .navbar-inverse .navbar-nav > li > a, footer .nav a {
     /* Copiado do inspecionar. (sinal > significa selecionar o filho imediato)*/
-    color: white;
+    color: #616161;
     font-weight: bold;
 }
 .navbar-inverse .navbar-nav > li > a:active, footer .nav a:active,
 .navbar-inverse .navbar-nav > li > a:hover, footer .nav a:hover{
-    color: #9bf0e1;
+    color: #db0a5b;
     background: none;
     /*color: rgba(219, 10, 91, .7);
     background-color: white;*/
@@ -84,7 +85,7 @@ nav.navbar-transparente{
 
 .search input {
     width: 250px;
-    background-color: rgb(219, 10, 91);
+    background-color: #616161;
     color: white;
     border: none;
     height: 30px;
@@ -120,6 +121,7 @@ nav.navbar-transparente{
 .capa{
     display: table; /* Para centralizar */
     width: 100%;
+    background: url('../img/asfalt-dark.png');
 }
 
 .texto-capa{
@@ -162,7 +164,7 @@ nav.navbar-transparente{
 /* Seção serviço */
 
 #lancamentos{
-    background: rgba(255, 255, 255, .6);
+    background: #f5f5f5;
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -180,7 +182,7 @@ nav.navbar-transparente{
 }
 
 .product-bit-title h2 {
-    font-family: raleway;
+
     font-size: 50px;
     font-weight: 200;
     margin: 0;
@@ -466,7 +468,7 @@ img {
 #section-loja{
     width: 100%;
     /*background-color: rgba(219, 10, 91, .7);*/
-    background-color: white;
+    background-color: #f5f5f5;
 }
 .loja{
     padding-top: 20px;
@@ -479,7 +481,7 @@ img {
 
 .texto-loja{
     text-align: center;
-    color: white;
+    color: #616161;
     display: table-cell; /* Para centralizar */
     vertical-align: middle;
 }
@@ -505,7 +507,7 @@ footer{
 /*pagina de visualização do produto*/
 
 .text-arial-cinza {
-    font-family: arial;
+
     font-size: 12px;
     color: #666;
 }
@@ -561,7 +563,7 @@ footer{
 }
 
 #detalhes-produto-selecionado .col-descricao h2 {
-    font-family: Arial;
+
     font-size: 20px;
     color: #666;
     margin-bottom: 20px;
@@ -704,7 +706,7 @@ footer{
 /* =========== TEXTO  ===========*/
 h1{
     /*font-size: 75px; no query*/
-    font-family: OpenSans-Light;
+
     font-weight: 900;
     letter-spacing: -0.05em; /* Quando a fonte é muito grande, precisa diminuir espaçamento*/
     margin-bottom: 50px;
@@ -786,7 +788,7 @@ h3{
 }
 
 .navbar-inverse .navbar-nav > li > a{
-    font-family: "Open Sans";
+
     font-size: 16px;
 }
 
@@ -802,8 +804,7 @@ h3{
 
 .texto-loja h3{
     text-transform: uppercase;
-    font-family: OpenSans-Light;
+
     font-weight: 100;
     text-shadow: 1px 1px 1px rgba(255, 255, 255, .5);
-    background-color: black;
 }

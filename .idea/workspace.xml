@@ -3,16 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="e49337e1-e317-424c-a16d-b3b054535157" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views-cache/categories-menu.7de693477577934f8c36ccb729347d3d.rtpl.php" afterPath="$PROJECT_DIR$/views-cache/categories-menu.7de693477577934f8c36ccb729347d3d.rtpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views-cache/footer.7de693477577934f8c36ccb729347d3d.rtpl.php" afterPath="$PROJECT_DIR$/views-cache/footer.7de693477577934f8c36ccb729347d3d.rtpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views-cache/header.7de693477577934f8c36ccb729347d3d.rtpl.php" afterPath="$PROJECT_DIR$/views-cache/header.7de693477577934f8c36ccb729347d3d.rtpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views-cache/index.7de693477577934f8c36ccb729347d3d.rtpl.php" afterPath="$PROJECT_DIR$/views-cache/index.7de693477577934f8c36ccb729347d3d.rtpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views-cache/login.9dc498534565d70aa7ba2b622a530554.rtpl.php" afterPath="$PROJECT_DIR$/views-cache/login.9dc498534565d70aa7ba2b622a530554.rtpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views-cache/product-detail.7de693477577934f8c36ccb729347d3d.rtpl.php" afterPath="$PROJECT_DIR$/views-cache/product-detail.7de693477577934f8c36ccb729347d3d.rtpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views-cache/products-update.9dc498534565d70aa7ba2b622a530554.rtpl.php" afterPath="$PROJECT_DIR$/views-cache/products-update.9dc498534565d70aa7ba2b622a530554.rtpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/site/css/delicada.css" afterPath="$PROJECT_DIR$/res/site/css/delicada.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/site/js/efeitos.js" afterPath="$PROJECT_DIR$/res/site/js/efeitos.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views-cache/header.d9aba6464e45701b6349c97ac4dba3a0.rtpl.php" afterPath="$PROJECT_DIR$/views-cache/header.d9aba6464e45701b6349c97ac4dba3a0.rtpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views-cache/index.d9aba6464e45701b6349c97ac4dba3a0.rtpl.php" afterPath="$PROJECT_DIR$/views-cache/index.d9aba6464e45701b6349c97ac4dba3a0.rtpl.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/header.html" afterPath="$PROJECT_DIR$/views/header.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/index.html" afterPath="$PROJECT_DIR$/views/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/product-detail.html" afterPath="$PROJECT_DIR$/views/product-detail.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,22 +21,32 @@
     <executablePath>composer</executablePath>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="header.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/header.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="401">
-              <caret line="101" column="33" lean-forward="false" selection-start-line="101" selection-start-column="33" selection-end-line="101" selection-end-column="33" />
+            <state relative-caret-position="418">
+              <caret line="19" column="91" lean-forward="false" selection-start-line="19" selection-start-column="91" selection-end-line="19" selection-end-column="91" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="delicada.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/res/site/css/delicada.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="229">
+              <caret line="708" column="0" lean-forward="false" selection-start-line="708" selection-start-column="0" selection-end-line="708" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2730">
-              <caret line="130" column="0" lean-forward="true" selection-start-line="130" selection-start-column="0" selection-end-line="130" selection-end-column="0" />
+            <state relative-caret-position="308">
+              <caret line="14" column="44" lean-forward="false" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -57,12 +63,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>product-pagination</find>
-      <find>pagination</find>
-      <find>product-main-img</find>
-      <find>product-gallery</find>
-      <find>form</find>
-      <find>product-big-title-area</find>
       <find>#register-form-wrap</find>
       <find>product-carousel-price</find>
       <find>single-product</find>
@@ -87,6 +87,12 @@
       <find>login-box-msg</find>
       <find>table</find>
       <find>sign</find>
+      <find>loja</find>
+      <find>texto-loja</find>
+      <find>navbar-inverse</find>
+      <find>sect</find>
+      <find>texto-loja h</find>
+      <find>font-family</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -123,17 +129,25 @@
         <option value="$PROJECT_DIR$/views/admin/products-update.html" />
         <option value="$PROJECT_DIR$/vendor/hcodebr/php-classes/src/Model/Category.php" />
         <option value="$PROJECT_DIR$/views/category.html" />
-        <option value="$PROJECT_DIR$/res/site/css/delicada.css" />
         <option value="$PROJECT_DIR$/res/admin/bootstrap/css/login.css" />
         <option value="$PROJECT_DIR$/views/admin/login.html" />
         <option value="$PROJECT_DIR$/res/admin/dist/css/AdminLTE.css" />
-        <option value="$PROJECT_DIR$/views/header.html" />
+        <option value="$PROJECT_DIR$/res/site/js/efeitos.js" />
         <option value="$PROJECT_DIR$/views/index.html" />
+        <option value="$PROJECT_DIR$/views/header.html" />
+        <option value="$PROJECT_DIR$/res/site/css/delicada.css" />
       </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>false</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>false</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
@@ -164,70 +178,45 @@
         <subPane>
           <expand>
             <path>
-              <item name="ecommerce" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ecommerce" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="delicada-mulher" type="b2602c69:ProjectViewProjectNode" />
+              <item name="delicada-mulher" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
-              <item name="ecommerce" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ecommerce" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="delicada-mulher" type="b2602c69:ProjectViewProjectNode" />
+              <item name="delicada-mulher" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="res" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
-              <item name="ecommerce" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ecommerce" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="hcodebr" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="delicada-mulher" type="b2602c69:ProjectViewProjectNode" />
+              <item name="delicada-mulher" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="res" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="site" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
-              <item name="ecommerce" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ecommerce" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="hcodebr" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="php-classes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="delicada-mulher" type="b2602c69:ProjectViewProjectNode" />
+              <item name="delicada-mulher" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="res" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="site" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
-              <item name="ecommerce" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ecommerce" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="hcodebr" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="php-classes" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="delicada-mulher" type="b2602c69:ProjectViewProjectNode" />
+              <item name="delicada-mulher" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="res" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="site" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
-              <item name="ecommerce" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ecommerce" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="hcodebr" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="php-classes" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="DB" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="ecommerce" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ecommerce" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="hcodebr" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="php-classes" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Model" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="ecommerce" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ecommerce" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="delicada-mulher" type="b2602c69:ProjectViewProjectNode" />
+              <item name="delicada-mulher" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="ecommerce" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ecommerce" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="admin" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -283,17 +272,19 @@
       <workItem from="1505693833165" duration="173000" />
       <workItem from="1505741271376" duration="587000" />
       <workItem from="1505824735813" duration="2438000" />
+      <workItem from="1505911086942" duration="3871000" />
+      <workItem from="1505931811165" duration="3661000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88370000" />
+    <option name="totallyTimeSpent" value="95902000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17423134" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -323,13 +314,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/views/admin/users.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="882">
-          <caret line="42" column="47" lean-forward="false" selection-start-line="42" selection-start-column="47" selection-end-line="42" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/admin/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -436,9 +420,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
           <caret line="417" column="29" lean-forward="false" selection-start-line="417" selection-start-column="18" selection-end-line="417" selection-end-column="29" />
-          <folding>
-            <element signature="e#8#24#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -492,13 +473,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/site/css/delicada.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="20" column="57" lean-forward="false" selection-start-line="19" selection-start-column="3" selection-end-line="20" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/res/admin/dist/css/AdminLTE.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="541">
@@ -510,15 +484,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="9" column="32" lean-forward="false" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
-          <folding>
-            <marker date="1505693728534" expanded="true" signature="40:986" ph="..." />
-            <marker date="1505693728534" expanded="true" signature="201:331" ph="{...}" />
-            <marker date="1505693728534" expanded="true" signature="395:503" ph="{...}" />
-            <marker date="1505693728534" expanded="true" signature="443:498" ph="..." />
-            <marker date="1505693728534" expanded="true" signature="558:605" ph="{...}" />
-            <marker date="1505693728534" expanded="true" signature="659:768" ph="{...}" />
-            <marker date="1505693728534" expanded="true" signature="829:984" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -526,9 +491,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21">
           <caret line="78" column="28" lean-forward="false" selection-start-line="78" selection-start-column="28" selection-end-line="78" selection-end-column="28" />
-          <folding>
-            <element signature="e#31#49#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -546,11 +508,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="486">
           <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
-          <folding>
-            <marker date="1505693728534" expanded="true" signature="55:2460" ph="..." />
-            <marker date="1505693728534" expanded="true" signature="276:2399" ph="{...}" />
-            <marker date="1505693728534" expanded="true" signature="2425:2457" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -558,16 +515,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2286">
           <caret line="111" column="36" lean-forward="false" selection-start-line="111" selection-start-column="36" selection-end-line="111" selection-end-column="36" />
-          <folding>
-            <element signature="e#31#49#0#PHP" expanded="false" />
-            <marker date="1505693728536" expanded="true" signature="1209:1266" ph="SELECT * FRO... tb_carts" />
-            <marker date="1505693728536" expanded="true" signature="1522:1567" ph="SELECT * FRO... tb_carts" />
-            <marker date="1505693728536" expanded="true" signature="2341:2417" ph="INSERT INTO tb_cartsproducts... " />
-            <marker date="1505693728536" expanded="true" signature="2752:2869" ph="UPDATE tb_ca... " />
-            <marker date="1505693728536" expanded="true" signature="3077:3202" ph="UPDATE tb_ca... " />
-            <marker date="1505693728536" expanded="true" signature="3483:3903" ph="SELECT b.idp... tb_cartsproducts" />
-            <marker date="1505693728536" expanded="true" signature="4127:4416" ph="SELECT SUM(v... tb_products" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -586,18 +533,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/header.html">
+    <entry file="file://$PROJECT_DIR$/res/site/js/efeitos.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="101" column="33" lean-forward="false" selection-start-line="101" selection-start-column="33" selection-end-line="101" selection-end-column="33" />
+        <state relative-caret-position="645">
+          <caret line="109" column="1" lean-forward="false" selection-start-line="109" selection-start-column="1" selection-end-line="109" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2730">
-          <caret line="130" column="0" lean-forward="true" selection-start-line="130" selection-start-column="0" selection-end-line="130" selection-end-column="0" />
+        <state relative-caret-position="308">
+          <caret line="14" column="44" lean-forward="false" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" column="91" lean-forward="false" selection-start-line="19" selection-start-column="91" selection-end-line="19" selection-end-column="91" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/site/css/delicada.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="708" column="0" lean-forward="false" selection-start-line="708" selection-start-column="0" selection-end-line="708" selection-end-column="0" />
           <folding />
         </state>
       </provider>

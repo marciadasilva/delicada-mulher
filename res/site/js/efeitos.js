@@ -72,3 +72,39 @@ $(document).ready(function(){
   	});
 
 });
+
+var number = 1;
+
+function change_color(){
+
+    switch(number){
+        case 1:
+            $(".change_color").css("color","#616161");
+            break;
+        case 2:
+            $(".change_color").css("color","white");
+            break;
+        case 3:
+            $(".change_color").css("color","red");
+            number = 0;
+            break;
+    }
+
+    number++;
+
+}
+
+function change_color_item(item){
+
+    switch(item){
+        case 1:
+            $(".change_color").css("color","#616161");
+            break;
+        case 2:
+            $(".change_color").css("color","white");
+            break;
+        case 3:
+            $(".change_color").css("color","red");
+            break;
+    }
+}

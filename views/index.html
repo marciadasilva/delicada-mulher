@@ -2,10 +2,49 @@
 <main>
 <!-- capa -->
 <div class="capa">
-    <div class="texto-capa">
+    <!--<div class="texto-capa">
         <h1>Delicada Mulher</h1>
         <a href=""class="btn btn-custom btn-roxo btn-lg">Ofertas</a>
         <a href=""class="btn btn-custom btn-branco btn-lg">Agende uma visita</a>
+    </div>-->
+
+    <div id="carousel-example" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li onclick="change_color_item(1)" data-target="#carousel-example" data-slide-to="0" class="active"></li>
+            <li onclick="change_color_item(2)" data-target="#carousel-example" data-slide-to="1"></li>
+            <li onclick="change_color_item(3)" data-target="#carousel-example" data-slide-to="2"></li>
+        </ol>
+
+        <div class="carousel-inner">
+            <div class="item active">
+                <a href="#"><img src="../res/site/img/banner.png" /></a>
+                <div class="carousel-caption">
+                    <!-- <h3>Meow</h3>
+                    <p>Just Kitten Around</p>-->
+                </div>
+            </div>
+            <div class="item">
+                <a href="#"><img src="../res/site/img/banner.png" /></a>
+                <div class="carousel-caption">
+                    <!-- <h3>Meow</h3>
+                    <p>Just Kitten Around</p>-->
+                </div>
+            </div>
+            <div class="item">
+                <a href="#"><img src="../res/site/img/banner.png" /></a>
+                <div class="carousel-caption">
+                    <!--<h3>Meow</h3>
+                    <p>Just Kitten Around</p>-->
+                </div>
+            </div>
+        </div>
+
+        <a onclick="change_color()" class="left carousel-control" href="#carousel-example" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a onclick="change_color()" class="right carousel-control" href="#carousel-example" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
     </div>
 </div>
 <!-- /capa -->
@@ -22,7 +61,7 @@
             <div class="loja">
                 <!-- texto-loja -->
                 <div class="texto-loja">
-                    <h3>lançamentos</h3>
+                    <h3>Feminino</h3>
                 </div>
                 <!-- /texto-loja -->
             </div>

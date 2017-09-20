@@ -16,6 +16,9 @@
 	<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,300' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Raleway:400,100' rel='stylesheet' type='text/css'>
 
+	<!-- Proxima nova -->
+	<link rel="stylesheet" type="text/css" href="/res/site/fonts/proxima_nova/fonts.min.css" />
+
 	<!-- Bootstrap -->
 	<link rel="stylesheet" href="/res/site/css/bootstrap.min.css">
 
@@ -110,7 +113,8 @@
 
 				<!-- imagem logo -->
 				<a href="index.php" class="navbar-brand">
-					<img class="img-logo" src="../res/site/img/logo.png" alt="DelicadaLogo" id="logotipo">
+					<!-- <img class="img-logo" src="../res/site/img/logo-menu.png" alt="DelicadaLogo" id="logotipo"> -->
+					<span class="img-logo"></span>
 				</a>
 				<!-- /imagem logo -->
 
@@ -128,13 +132,13 @@
 						</div>
 					</li>
 
-					<li><a href="">Feminino</a> </li>
-					<li><a href="">Masculino</a> </li>
+					<li><a class="change_color" href="">Feminino</a> </li>
+					<li><a class="change_color" href="">Masculino</a> </li>
 
-					<li class="divisor" role="separator"></li>
+					<li class="divisor change_color" role="separator"></li>
 
 					<li class="dropdown">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+						<a href="#" class="dropdown-toggle change_color" data-toggle="dropdown">
 							<span><i class="fa fa-user"></i></span> Olá <span class="caret"></span>
 						</a>
 						<ul class="dropdown-menu">
@@ -143,8 +147,8 @@
 							<li><a href="#">Sair</a></li>
 						</ul>
 					</li>
-					<li class="divisor" role="separator"></li>
-					<li><a href="shop.php"><i id="bag" class="fa fa-shopping-bag" style="font-size: 20px"></i></a></li>
+					<li class="divisor change_color" role="separator"></li>
+					<li><a class="change_color" href="shop.php"><i id="bag" class="fa fa-shopping-bag" style="font-size: 20px"></i></a></li>
 				</ul>
 			</div>
 			<!-- /navbar -->
