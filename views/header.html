@@ -94,13 +94,11 @@
 		</div>
 	</div>
 </div>
-<header>
-	<nav class="navbar navbar-fixed-top navbar-inverse navbar-transparente">
-		<!-- container -->
-		<div class="container">
-			<!-- header -->
-			<div class="navbar-header">
 
+<header>
+	<nav class="navbar navbar-fixed-top navbar-inverse navbar-transparent">
+		<div class="container">
+			<div class="navbar-header">
 				<!-- botao toggle -->
 				<button class="navbar-toggle collapsed" type="button"
 						data-toggle="collapse" data-target="#barra-navegacao">
@@ -111,17 +109,12 @@
 				</button>
 				<!-- /botao toggle -->
 
-				<!-- imagem logo -->
 				<a href="index.php" class="navbar-brand">
-					<!-- <img class="img-logo" src="../res/site/img/logo-menu.png" alt="DelicadaLogo" id="logotipo"> -->
+		<!-- <img class="img-logo" src="../res/site/img/logo-menu.png" alt="DelicadaLogo" id="logotipo"> -->
 					<span class="img-logo"></span>
 				</a>
-				<!-- /imagem logo -->
-
 			</div>
-			<!-- /header -->
 
-			<!-- navbar -->
 			<div class="collapse navbar-collapse" id="barra-navegacao">
 				<ul class="nav navbar-nav navbar-right">
 
@@ -151,11 +144,9 @@
 					<li><a class="change_color" href="shop.php"><i id="bag" class="fa fa-shopping-bag" style="font-size: 20px"></i></a></li>
 				</ul>
 			</div>
-			<!-- /navbar -->
+
 
 		</div>
-		<!-- /container -->
 
-	</nav><!-- /nav -->
-
+	</nav>
 </header>

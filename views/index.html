@@ -1,180 +1,147 @@
-
 <main>
-<!-- capa -->
-<div class="capa">
+
+<section class="banner">
     <!--<div class="texto-capa">
         <h1>Delicada Mulher</h1>
         <a href=""class="btn btn-custom btn-roxo btn-lg">Ofertas</a>
         <a href=""class="btn btn-custom btn-branco btn-lg">Agende uma visita</a>
     </div>-->
+    <main>
+        <div id="carousel-example" class="carousel slide" data-ride="carousel" data-interval="false">
+            <ol class="carousel-indicators">
+                <li onclick="change_color_item(1)" data-target="#carousel-example" data-slide-to="0" class="active"></li>
+                <li onclick="change_color_item(2)" data-target="#carousel-example" data-slide-to="1"></li>
+                <li onclick="change_color_item(3)" data-target="#carousel-example" data-slide-to="2"></li>
+            </ol>
 
-    <div id="carousel-example" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-            <li onclick="change_color_item(1)" data-target="#carousel-example" data-slide-to="0" class="active"></li>
-            <li onclick="change_color_item(2)" data-target="#carousel-example" data-slide-to="1"></li>
-            <li onclick="change_color_item(3)" data-target="#carousel-example" data-slide-to="2"></li>
-        </ol>
+            <div class="carousel-inner">
+                <div class="item active">
+                    <a href="#"><img src="../res/site/img/banner.png" /></a>
+                    <div class="carousel-caption">
+                        <!-- <h3>Meow</h3>
+                        <p>Just Kitten Around</p>-->
+                    </div>
+                </div>
+                <div class="item">
+                    <a href="#"><img src="../res/site/img/banner.png" /></a>
+                    <div class="carousel-caption">
+                        <!-- <h3>Meow</h3>
+                        <p>Just Kitten Around</p>-->
+                    </div>
+                </div>
+                <div class="item">
+                    <a href="#"><img src="../res/site/img/banner.png" /></a>
+                    <div class="carousel-caption">
+                        <!--<h3>Meow</h3>
+                        <p>Just Kitten Around</p>-->
+                    </div>
+                </div>
+            </div>
 
-        <div class="carousel-inner">
-            <div class="item active">
-                <a href="#"><img src="../res/site/img/banner.png" /></a>
-                <div class="carousel-caption">
-                    <!-- <h3>Meow</h3>
-                    <p>Just Kitten Around</p>-->
-                </div>
-            </div>
-            <div class="item">
-                <a href="#"><img src="../res/site/img/banner.png" /></a>
-                <div class="carousel-caption">
-                    <!-- <h3>Meow</h3>
-                    <p>Just Kitten Around</p>-->
-                </div>
-            </div>
-            <div class="item">
-                <a href="#"><img src="../res/site/img/banner.png" /></a>
-                <div class="carousel-caption">
-                    <!--<h3>Meow</h3>
-                    <p>Just Kitten Around</p>-->
-                </div>
-            </div>
+            <a onclick="change_color(-1)" class="left carousel-control" href="#carousel-example" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+            <a onclick="change_color(1)" class="right carousel-control" href="#carousel-example" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
         </div>
-
-        <a onclick="change_color(-1)" class="left carousel-control" href="#carousel-example" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left"></span>
-        </a>
-        <a onclick="change_color(1)" class="right carousel-control" href="#carousel-example" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right"></span>
-        </a>
-    </div>
-</div>
-<!-- /capa -->
-
-<!-- conteúdo -->
-<section id="lancamentos">
-    <!-- container -->
-    <div class="container">
-
-        <!-- row -->
-        <div class="row">
-
-            <!-- loja -->
-            <div class="loja">
-                <!-- texto-loja -->
-                <div class="texto-loja">
-                    <h3>Feminino</h3>
-                </div>
-                <!-- /texto-loja -->
-            </div>
-            <!-- /loja -->
-
-            <!-- albuns -->
-            <div class="col-md-3">
-                <div class="categoria">
-                    <div class="nome-categoria foto-categoria-blusas">
-                        <button class="btn btn-categoria">Blusas</button>
-                    </div>
-                </div>
-
-            </div>
-            <!-- /albuns -->
-
-            <!-- servicos -->
-            <div class="col-md-3">
-                <div class="categoria foto-categoria-calcas">
-                    <div class="nome-categoria">
-                        <button class="btn btn-categoria">Calças</button>
-                    </div>
-                </div>
-            </div>
-            <!-- /servicos -->
-
-            <!-- albuns -->
-            <div class="col-md-3">
-                <div class="categoria">
-                    <div class="nome-categoria foto-categoria-saias">
-                        <button class="btn btn-categoria">Saias</button>
-                    </div>
-                </div>
-
-            </div>
-            <!-- /albuns -->
-
-            <!-- servicos -->
-            <div class="col-md-3">
-                <div class="categoria">
-                    <div class="nome-categoria foto-categoria-vestidos">
-                        <button class="btn btn-categoria">Vestidos</button>
-                    </div>
-                </div>
-            </div>
-            <!-- /servicos -->
-
-
-        </div>
-        <!-- /row -->
-    </div>
-    <!-- /container -->
+    </main>
 </section>
-<!-- /conteúdo -->
 
-<!-- section-loja -->
-<section id="section-loja">
-    <!-- container -->
-    <div class="container">
-        <!-- row -->
-        <div class="row">
-            <!-- loja -->
-            <div class="loja">
-                <!-- texto-loja -->
-                <div class="texto-loja">
-                    <h3>Ofertas</h3>
+<section id="lancamentos">
+
+    <header class="loja">
+        <div class="texto-loja">
+            <h3>Feminino</h3>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-md-3">
+                    <div class="categoria">
+                        <div class="nome-categoria foto-categoria-blusas">
+                            <button class="btn btn-categoria">Blusas</button>
+                        </div>
+                    </div>
                 </div>
-                <!-- /texto-loja -->
+
+                <div class="col-md-3">
+                    <div class="categoria foto-categoria-calcas">
+                        <div class="nome-categoria">
+                            <button class="btn btn-categoria">Calças</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="categoria">
+                        <div class="nome-categoria foto-categoria-saias">
+                            <button class="btn btn-categoria">Saias</button>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-md-3">
+                    <div class="categoria">
+                        <div class="nome-categoria foto-categoria-vestidos">
+                            <button class="btn btn-categoria">Vestidos</button>
+                        </div>
+                    </div>
+                </div>
+
             </div>
-            <!-- /loja -->
+        </div>
+    </main>
+</section>
 
-            <div class="loja">
-                <!-- carousel
-                       <!-- <Carousel bootstrap> -->
-                <div class="maincontent-area">
-                    <div class="zigzag-bottom"></div>
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="latest-product">
-                                    <div class="product-carousel">
-                                        {loop="$products"}
-                                        <div class="single-product">
-                                            <div class="product-f-image">
-                                                <img src="{$value.desphoto}" alt="Ofertas">
-                                                <div class="product-hover">
-                                                    <a href="/cart/{$value.idproduct}/add" class="add-to-cart-link"><i class="fa fa-shopping-bag"></i> Comprar</a>
-                                                    <a href="/products/{$value.desurl}" class="view-details-link"><i class="fa fa-link"></i> Ver Detalhes</a>
-                                                </div>
-                                            </div>
+<section id="section-loja">
 
-                                            <h2><a href="/products/{$value.desurl}">{$value.desproduct}</a></h2>
+    <header class="loja">
+        <div class="texto-loja">
+            <h3>Ofertas</h3>
+        </div>
+    </header>
 
-                                            <div class="product-carousel-price">
-                                                <ins>R${function="formatPrice($value.vlprice)"}</ins>
-                                            </div>
+    <main class="loja">
+        <!-- <Carousel bootstrap> -->
+        <div class="maincontent-area">
+            <div class="zigzag-bottom"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="latest-product">
+                            <div class="product-carousel">
+                                {loop="$products"}
+                                <div class="single-product">
+                                    <div class="product-f-image">
+                                        <img src="{$value.desphoto}" alt="Ofertas">
+                                        <div class="product-hover">
+                                            <a href="/cart/{$value.idproduct}/add" class="add-to-cart-link"><i class="fa fa-shopping-bag"></i> Comprar</a>
+                                            <a href="/products/{$value.desurl}" class="view-details-link"><i class="fa fa-link"></i> Ver Detalhes</a>
                                         </div>
-                                        {/loop}
+                                    </div>
+
+                                    <h2><a href="/products/{$value.desurl}">{$value.desproduct}</a></h2>
+
+                                    <div class="product-carousel-price">
+                                        <ins>R${function="formatPrice($value.vlprice)"}</ins>
                                     </div>
                                 </div>
+                                {/loop}
                             </div>
                         </div>
                     </div>
-                </div> <!-- End main content area -->
-                <!-- /carousel -->
-
+                </div>
             </div>
-            <!-- /loja -->
         </div>
-        <!-- row -->
-    </div>
-    <!-- /container -->
+        <!-- End main content area -->
+    </main>
+
 </section>
-<!-- /section-loja -->
 
 </main>

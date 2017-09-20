@@ -1,17 +1,6 @@
-@font-face {
-    font-family: 'Open Sans';
-    src: url("../fonts/Open_Sans/OpenSans-Regular.ttf");
-    font-size: 1em;
-}
-@font-face {
-    font-family: 'Open Sans-Light';
-    src: url("../fonts/Open_Sans/OpenSans-Light.ttf");
-    font-size: 1em;
-}
+/* ================================= LAYOUT ================================= */
 
-/* =========== LAYOUT =========== */
-
-html, body, .capa{
+html, body, section.banner{
     height: 100%;
 }
 
@@ -25,34 +14,32 @@ body{
     overflow-x: hidden;  /* esconder barra de navegação */
 }
 
-/* Barra de navegação */
+/* ================================= MENU ================================= */
 
 .img-logo{
     height: 50px;
     width: 132px;
     display: block; /* Por causa do span */
- background: url('../img/logo-menu.png') no-repeat;
- background-size: contain; /* Mesmo tamanho definido na classe */
- color: transparent; /* Importante deixar o texto para os leitores de tela */
+    background: url('../img/logo-menu.png') no-repeat;
+    background-size: contain; /* Mesmo tamanho definido na classe */
+    color: transparent; /* Importante deixar o texto para os leitores de tela */
 }
 
-/* Gambiarra */
+
 /*.img-logo{
     height: 75px;
     width: 150px;
     position: absolute;
     top: 5px;
-}
+}*/
 
-/* Fim Gambiarra */
-
-nav.navbar-transparente{
+nav.navbar-transparent{
     padding: 15px 0px;
     background-color: transparent;
     border: none;
 }
 
-.navbar-brand{
+nav.navbar-brand{
     padding: 5px 15px; /* Sobreescrever class do bootstrap*/
 }
 
@@ -72,12 +59,9 @@ nav.navbar-transparente{
 .navbar-inverse .navbar-nav > li > a:hover, footer .nav a:hover{
     color: #db0a5b;
     background: none;
-    /*color: rgba(219, 10, 91, .7);
-    background-color: white;*/
 }
 
 .search {
-    /*transition-timing-function: cubic-bezier(1, -.91, .91, 1);*/
     width: 250px;
     transition-timing-function: cubic-bezier(1, -.91, .91, 1);
     transition-duration: 1s;
@@ -116,9 +100,9 @@ nav.navbar-transparente{
     margin-left: auto;
 }
 
-/* Imagem de capa */
+/* ================================= BANNER ================================= */
 
-.capa{
+.banner{
     display: table; /* Para centralizar */
     width: 100%;
     background: url('../img/asfalt-dark.png');
