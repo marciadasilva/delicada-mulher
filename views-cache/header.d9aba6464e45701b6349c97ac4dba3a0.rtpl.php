@@ -96,7 +96,7 @@
 </div>
 
 <header>
-	<nav class="navbar navbar-fixed-top navbar-inverse navbar-transparent">
+	<nav class="navbar navbar-fixed-top navbar-inverse nav-color navbar-transparent">
 		<div class="container">
 			<div class="navbar-header">
 				<!-- botao toggle -->
@@ -119,7 +119,7 @@
 				<ul class="nav navbar-nav navbar-right">
 
 					<li class="search" class="hidden-xs">
-						<div class="input-group">
+						<div class="input-group ">
 							<input type="search" placeholder="pesquisar..." id="input-search">
 							<span class="input-group-btn"><button type="button"><i class="fa fa-search"></i></button></span>
 						</div>
@@ -134,7 +134,7 @@
 						<a href="#" class="dropdown-toggle change_color" data-toggle="dropdown">
 							<span><i class="fa fa-user"></i></span> Olá <span class="caret"></span>
 						</a>
-						<ul class="dropdown-menu">
+						<ul class="dropdown-menu" style="background: #db0a5b;">
 							<li><a href="#">Entrar</a></li>
 							<li><a href="#">Cadastrar-se</a></li>
 							<li><a href="#">Sair</a></li>

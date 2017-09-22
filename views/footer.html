@@ -7,7 +7,8 @@
 
             <div class="col-md-2">
                 <a href="index.php" class="navbar-brand">
-                    <img class="img-logo" src="../res/site/img/logo.png" alt="DelicadaLogo" id="logotipo">
+                    <!--<img class="img-logo" src="../res/site/img/logo.png" alt="DelicadaLogo" id="logotipo">-->
+                    <span class="img-logo"></span>
                 </a>
             </div>
 

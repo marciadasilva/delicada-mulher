@@ -33,13 +33,18 @@ body{
     top: 5px;
 }*/
 
+nav.nav-color{
+    background-color: #db0a5b;
+    height: 80px;
+}
+
 nav.navbar-transparent{
     padding: 15px 0px;
     background-color: transparent;
     border: none;
 }
 
-nav.navbar-brand{
+nav.navbar-inverse{
     padding: 5px 15px; /* Sobreescrever class do bootstrap*/
 }
 
@@ -726,6 +731,10 @@ h1{
     .categoria {
         margin: 10px 0;
     }
+    .navbar-nav.navbar-right:last-child {
+        margin-right: -25px;
+        margin-top: -40px
+    }
 }
 
 /* md  */
@@ -743,6 +752,10 @@ h1{
     .categoria {
         margin: 10px 0;
     }
+    .navbar-nav.navbar-right:last-child {
+        margin-right: -15px;
+        margin-top: 10px
+    }
 }
 
 /* lg */
@@ -756,6 +769,10 @@ h1{
 
     .search.ativo input{
         width: 500px;
+    }
+    .navbar-nav.navbar-right:last-child {
+        margin-right: -15px;
+        margin-top: 10px
     }
 }
 

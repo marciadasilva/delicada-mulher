@@ -71,6 +71,17 @@ $(document).ready(function(){
 
   	});
 
+
+    var $w = $(window);
+
+    $w.on("scroll", function(){
+        if( $w.scrollTop() > 820 ) {
+            $("nav").removeClass("navbar-transparent");
+        } else if( $w.scrollTop() < 820 ) {
+            $("nav").addClass("navbar-transparent");
+        }
+    });
+
 });
 
 var number = 1;
