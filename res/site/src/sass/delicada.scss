@@ -1,0 +1,134 @@
+html, body, section.banner{
+    height: 100%;
+}
+
+body{
+    background-color: #f5f5f5;
+    /*background: url('../img/asfalt-dark.png');  /* Imagem opaca */
+    /*url('../img/ruido.png'), /* Roxo fraco (não sobrescreve porque as 2 são opaca)*/
+    /*linear-gradient(50deg, white, rgba(219, 10, 91, .7));
+    background-attachment: fixed; /* Deixar imagem de fundo fixa */
+    font-family: "Proxima Nova"; /* Padrão ser no body isso */
+    overflow-x: hidden;  /* esconder barra de navegação */
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h2{
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+}
+
+h3{
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+}
+
+
+/*pagina de visualização do produto*/
+
+/*.text-arial-cinza {
+
+    font-size: 12px;
+    color: #666;
+}
+
+.text-arial-rosa {
+    color: #DB0A5B;
+}
+
+.miniaturas {
+    padding: 5px;
+    margin: 5px 0;
+    list-style-type: none;
+}
+
+.mini-01 {
+    background-image: url("../img/saia.jpg");
+    background-repeat: no-repeat;
+    background-size: 200px 200px;
+    padding: 12px 0;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+}
+.mini-02 {
+    background-image: url("../img/saia.jpg");
+    background-repeat: no-repeat;
+    padding: 12px 0;
+}
+.mini-03 {
+    background-image: url("../img/saia.jpg");
+    background-repeat: no-repeat;
+    padding: 12px 0;
+}
+.mini-04 {
+    background-image: url("../img/saia.jpg");
+    background-repeat: no-repeat;
+    padding: 12px 0;
+}
+
+#produto-selecionado {
+    position: relative;
+    background: white;
+    width: 100%;
+    top: 80px;
+    padding-bottom: 150px;
+}
+
+#detalhes-produto-selecionado .item {
+    padding: 60px 0;
+}
+
+#detalhes-produto-selecionado .col-imagem {
+    text-align: center;
+}
+
+#detalhes-produto-selecionado .col-descricao h2 {
+
+    font-size: 20px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+#detalhes-produto-selecionado .col-descricao .box-valor {
+    width: 100%;
+    position: relative;
+}
+
+#detalhes-produto-selecionado .col-descricao .box-valor .text-reais {
+    font-size: 18px;
+    font-weight: bold;
+    position: absolute;
+    top: 13px;
+    left: 29px;
+}
+
+#detalhes-produto-selecionado .col-descricao .box-valor .text-valor {
+    font-size: 50px;
+    font-weight: bold;
+    position: absolute;
+    top: -15px;
+    left: 57px;
+}
+
+#detalhes-produto-selecionado .col-descricao .box-valor .text-valor-centavos {
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    top: -8px;
+    left: 132px;
+
+}
+
+.btn-comprar {
+    font-size: 26px;
+    padding: 15px 0;
+}
+
+.btn-comprar .fa{
+    font-size: 34px;
+}*/

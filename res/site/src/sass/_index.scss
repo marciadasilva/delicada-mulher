@@ -1,0 +1,246 @@
+// BANNER PRINCIPAL DO INDEX
+
+.banner{
+  display: table;
+  width: 100%;
+  background: url('../img/asfalt-dark.png');
+}
+
+.banner .text {
+  text-align: center;
+  color: white;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.banner h1{
+  font-weight: 900;
+  letter-spacing: -0.05em;
+  margin-bottom: 50px;
+  text-shadow: 2px 2px 2px rgba(0,0,0,.7);
+}
+
+.main-section{
+  width: 100%;
+  background-color: #f5f5f5;
+}
+
+// FEMININO CATEGORIA
+
+.main-section hr{
+  display: inline-block;
+  width: 29%;
+  height: 1px;
+  border-width: 0;
+  background-color: #dcdcdc;
+  margin: 0 100px 10px 100px;
+}
+
+.main-section .categoria {
+  display: table;
+  width: 100%;
+  height: 400px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, .6);
+  border-radius: 10px;
+  transition-duration: 0.5s;
+
+  &:hover{
+    transform: scale(1.05);
+  }
+}
+
+.main-section .categoria .nome-categoria{
+  text-align: center;
+  display: table-cell;
+  vertical-align: bottom;
+}
+
+.main-section .categoria .btn-categoria{
+  color: white;
+  background-color: #171f26;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  padding: 8px 30px;
+
+  &:hover{
+    color: white;
+    text-shadow: 0px 0px 4px rgb(255,255,255);
+    text-transform: uppercase;
+  }
+}
+
+.main-section .categoria .foto-categoria-blusas {
+  background: url("../img/blusa.jpg")no-repeat;
+  background-size: cover;
+}
+
+.main-section .categoria .foto-categoria-calcas {
+  background: url("../img/calca.jpg")no-repeat;
+  background-size: cover;
+}
+
+.main-section .categoria .foto-categoria-saias {
+  background: url("../img/saia2.jpg")no-repeat;
+  background-size: cover;
+}
+
+.main-section .categoria .foto-categoria-vestidos {
+  background: url("../img/vestido.jpg")no-repeat;
+  background-size: cover;
+}
+
+// ESTRUTURA PADRÃO DAS SEÇÕES DO INDEX
+
+.main-section .name-section{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: white;
+  display: table;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.main-section .text-section {
+  text-align: center;
+  color: #616161;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.main-section .text-section h3 {
+  text-transform: uppercase;
+  font-weight: 100;
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, .5);
+}
+
+// CAROUSEL
+
+.main-section .margin-carousel{
+  margin-bottom: 10px;
+}
+
+.main-section .product-carousel {
+  padding-top: 40px;
+}
+
+.main-section .latest-product .owl-nav {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.main-section .latest-product .owl-nav div, .related-products-wrapper .owl-nav div {
+  background:#DB0A5B;
+  color:#FFF;
+  display: inline-block;
+  margin-left: 15px;
+  padding: 1px 10px;
+}
+
+.main-section .latest-product .owl-nav div:hover, .owl-nav div:hover, .owl-nav div:hover {
+  color: black;
+  background:white;
+}
+
+.main-section .product-f-image {
+  position: relative;
+  height: 250px;
+}
+
+.main-section .product-f-image img {
+  max-width: 100%;
+  height: 100%;
+}
+
+.main-section .product-hover {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;overflow: hidden;border: 1px solid #ddd;
+
+  &:after{
+    background: none repeat scroll 0 0 #000;
+    content: "";
+    height: 100%;
+    left: -100%;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    width: 100%;transition: .4s;
+  }
+}
+
+.main-section .product-hover a {
+  background: none repeat scroll 0 0 #DB0A5B;
+  border-radius: 5px;
+  color: #fff;
+  display: block;
+  font-size: 16px;
+  left: 10%;
+  margin: 0;
+  padding: 10px;
+  position: absolute;
+  text-align: center;
+  text-transform: uppercase;
+  border: 1px solid #DB0A5B;
+  width: 80%;z-index: 99;transition: .4s;
+
+  &:hover{
+    background: #fff;
+    text-decoration: none;border-color: #444;
+    color: black;
+  }
+}
+
+.main-section .product-carousel-price ins {
+  color: #DB0A5B;
+  font-weight: 700;
+  margin-right: 5px;
+  text-decoration: none;
+}
+
+.main-section .product-hover a i.fa {
+  margin-right: 5px;
+}
+
+.main-section .product-hover a.add-to-cart-link {
+  top: -25%;
+}
+
+.main-section .product-hover a.view-details-link {
+  bottom: -25%;
+}
+
+// SINGLE PRODUCT
+
+.main-section .single-product-area {
+  padding: 80px 0 130px;
+}
+
+.main-section .single-product h2 {
+  font-size: 18px;
+  line-height: 25px;
+  margin-bottom: 10px;
+  margin-top: 15px;
+}
+
+.main-section .single-product h2 a {
+  color: #171f26;
+}
+
+.main-section .single-product {
+  overflow: hidden;
+}
+
+.main-section .single-product:hover .product-hover a.add-to-cart-link {
+  top: 32%;
+}
+
+.main-section .single-product:hover .product-hover a.view-details-link {
+  bottom: 32%;
+}
+
+.main-section .single-product:hover .product-hover:after{
+  left: 0
+}

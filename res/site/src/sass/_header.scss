@@ -1,0 +1,92 @@
+.img-logo{
+    height: 50px;
+    width: 132px;
+    display: block; /* Por causa do span */
+    background: url('../img/logo-menu.png') no-repeat;
+    background-size: contain; /* Mesmo tamanho definido na classe */
+    color: transparent; /* Importante deixar o texto para os leitores de tela */
+}
+
+/*.img-logo{
+    height: 75px;
+    width: 150px;
+    position: absolute;
+    top: 5px;
+}*/
+
+nav.nav-color{
+    background-color: #db0a5b;
+    height: 80px;
+}
+
+nav.navbar-transparent{
+    padding: 15px 0px;
+    background-color: transparent;
+    border: none;
+}
+
+nav.navbar-inverse{
+    padding: 5px 15px; /* Sobreescrever class do bootstrap*/
+}
+
+.divisor{
+    width: 1px;
+    height: 16px;
+    background: white;
+    margin: 16px 10px;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    /* Copiado do inspecionar. (sinal > significa selecionar o filho imediato)*/
+    color: #616161;
+    font-weight: bold;
+}
+
+.navbar-inverse .navbar-nav > li > a:active,
+.navbar-inverse .navbar-nav > li > a:hover{
+    color: #db0a5b;
+    background: none;
+}
+
+.navbar-inverse .navbar-nav > li > a{
+    font-size: 16px;
+}
+
+.search {
+    width: 250px;
+    transition-timing-function: cubic-bezier(1, -.91, .91, 1);
+    transition-duration: 1s;
+}
+
+.search input {
+    width: 250px;
+    background-color: #616161;
+    color: white;
+    border: none;
+    height: 30px;
+    font-weight: bold;
+    line-height: 30px;
+    padding-left: 8px;
+}
+
+.search button {
+    background: none;
+    border: none;
+    position: absolute;
+    right: 3px;
+    top: 7px;
+}
+
+.search button i {
+    font-size: 14px;
+    color: rgba(255, 255, 255, .5);
+}
+
+.search .input-group {
+    margin:10px 0px;
+    margin-left: auto;
+}
+
+::-webkit-input-placeholder { /* WebKit browsers */
+    color: #fff;
+}

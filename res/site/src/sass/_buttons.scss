@@ -1,0 +1,28 @@
+$btn_color_purple: rgba(219, 10, 91, .7);
+$btn_color_white: white;
+$text_color_black: black;
+$text_color_white: white;
+
+
+@mixin newButton($background_color, $color_text, $background_text_hover, $color_text_hover){
+  color: $color_text;
+  border-radius: 500px;
+  -webkit-border-radius: 500px;
+  -moz-border-radius: 500px;
+  text-transform: uppercase;
+  transition: background 0.4s, color 0.4s;
+  background-color: $background_color;
+
+  &:hover{
+    background-color: $background_text_hover;
+    color: $color_text_hover;
+  }
+}
+
+.btn-purple{
+  @include newButton($btn_color_purple, $text_color_white, $btn_color_white, $text_color_black);
+}
+
+.btn-white{
+  @include newButton($btn_color_white, $text_color_black, $btn_color_purple, $text_color_white);
+}

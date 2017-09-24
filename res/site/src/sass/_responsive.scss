@@ -1,0 +1,73 @@
+/* Media queries*/
+/* xs */
+@media screen and (max-width: 767px){ /* Até 767 */
+  h1{
+    font-size: 50px;
+  }
+  .btn-custom{
+    margin: 10px 15px;
+  }
+  .main-section .categoria {
+    margin: 10px 0;
+  }
+}
+
+/* sm */
+@media screen and (min-width: 768px){/* De 768 até 992 */
+  h1{
+    font-size: 60px;
+  }
+  .search.ativo {
+    width: 200px;
+  }
+
+  .search.ativo input{
+    width: 200px;
+  }
+  .main-section .categoria {
+    margin: 10px 0;
+  }
+  .navbar-nav.navbar-right:last-child {
+    margin-right: -25px;
+    margin-top: -40px
+  }
+}
+
+/* md  */
+@media screen and (min-width: 992px){ /* De 992 até 1200 */
+  h1{
+    font-size: 70px;
+  }
+  .search.ativo {
+    width: 300px;
+  }
+
+  .search.ativo input{
+    width: 300px;
+  }
+  .main-section .categoria {
+    margin: 10px 0;
+  }
+  .navbar-nav.navbar-right:last-child {
+    margin-right: -15px;
+    margin-top: 10px
+  }
+}
+
+/* lg */
+@media screen and (min-width: 1200px){ /* Acima de 1200px */
+  h1{
+    font-size: 75px;
+  }
+  .search.ativo {
+    width: 500px;
+  }
+
+  .search.ativo input{
+    width: 500px;
+  }
+  .navbar-nav.navbar-right:last-child {
+    margin-right: -15px;
+    margin-top: 10px
+  }
+}

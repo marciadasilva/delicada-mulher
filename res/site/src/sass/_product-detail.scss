@@ -1,0 +1,112 @@
+// PRODUCT MAIN AREA
+
+.single-product-area {
+  padding: 80px 0 130px;
+}
+
+.product-inner-price {
+  margin-bottom: 25px;
+}
+
+.product-inner-price > ins {
+  color: #db0a5b;
+  font-weight: 700;
+  margin-right: 10px;
+  text-decoration: none;
+  font-size: 50px
+}
+
+.product-name {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.product-inner-category {
+  margin-bottom: 30px;
+}
+
+// PRODUCT TAB
+
+.product-tab {
+  border-bottom: 1px solid #ddd;
+  list-style: outside none none;
+  margin: 0 0 30px;
+  padding: 0;
+  text-align: center;
+}
+
+.product-tab li {
+  display: inline-block;
+}
+
+.product-tab li.active {
+  background: none repeat scroll 0 0 #db0a5b;
+}
+
+.product-tab li.active a {
+  color: #fff;
+}
+
+.product-tab li a {
+  color: #222;
+  display: block;
+  font-size: 16px;
+  padding: 10px 30px;
+}
+
+.product-tab li a:hover {
+  text-decoration: none;
+}
+
+.product-tab li a:focus {
+  text-decoration: none;
+}
+
+.tab-content h2 {
+  font-size: 20px;
+}
+
+.tab-content {
+  margin-bottom: 30px;
+}
+
+.submit-review label {
+  display: block;
+}
+
+.submit-review input[type="text"], .submit-review input[type="email"], .submit-review textarea {
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.rating-chooser {
+  margin-bottom: 30px;
+}
+
+.rating-chooser p {
+  font-weight: 700;
+}
+
+.rating-wrap-post {
+  font-size: 20px;
+}
+
+.submit-review textarea {
+  height: 105px;
+}
+
+.related-products-wrapper {
+  margin-top: 30px;
+}
+
+.related-products-title {color: #db0a5b;
+  font-size: 25px;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+
+.related-products-wrapper .owl-nav {
+  position: absolute;
+  right: 0;
+  top: -56px;
+}

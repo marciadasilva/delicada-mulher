@@ -9,7 +9,7 @@
 	<!-- <meta name="robots" content="index, follow"> // para indexar a página index -->
 
 	<title>Delicada Mulher</title>
-	<!-- <link rel="icon" href="imagens/favicon.png"> -->
+	<link rel="icon" href="../res/site/img/favicon.png">
 
 	<!-- Google Fonts -->
 	<link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,200,300,700,600' rel='stylesheet' type='text/css'>
@@ -28,8 +28,8 @@
 
 	<!-- Custom CSS -->
 	<link rel="stylesheet" href="/res/site/css/owl.carousel.css">
-	<link rel="stylesheet" href="/res/site/css/delicada.css">
-	<link rel="stylesheet" href="/res/site/css/responsive.css">
+	<link rel="stylesheet" href="/res/site/css/delicada.min.css">
+	<!--<link rel="stylesheet" href="/res/site/css/responsive.css">-->
 
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
