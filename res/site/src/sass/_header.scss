@@ -15,8 +15,9 @@
 }*/
 
 nav.nav-color{
-    background-color: #db0a5b;
+    background-color: #ECF0F1;
     height: 80px;
+    border-bottom: none;
 }
 
 nav.navbar-transparent{
@@ -36,20 +37,17 @@ nav.navbar-inverse{
     margin: 16px 10px;
 }
 
-.navbar-inverse .navbar-nav > li > a {
-    /* Copiado do inspecionar. (sinal > significa selecionar o filho imediato)*/
+
+.navbar-inverse .navbar-nav > li > a{
+    font-size: 14px;
     color: #616161;
-    font-weight: bold;
+    margin: 0 25px;
 }
 
 .navbar-inverse .navbar-nav > li > a:active,
 .navbar-inverse .navbar-nav > li > a:hover{
     color: #db0a5b;
     background: none;
-}
-
-.navbar-inverse .navbar-nav > li > a{
-    font-size: 16px;
 }
 
 .search {
@@ -60,11 +58,10 @@ nav.navbar-inverse{
 
 .search input {
     width: 250px;
-    background-color: #616161;
-    color: white;
+    background-color: #d6d6d6;
+    color: #616161;
     border: none;
     height: 30px;
-    font-weight: bold;
     line-height: 30px;
     padding-left: 8px;
 }
@@ -79,7 +76,7 @@ nav.navbar-inverse{
 
 .search button i {
     font-size: 14px;
-    color: rgba(255, 255, 255, .5);
+    color: #616161;
 }
 
 .search .input-group {

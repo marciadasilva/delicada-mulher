@@ -75,9 +75,9 @@ $(document).ready(function(){
     var $w = $(window);
 
     $w.on("scroll", function(){
-        if( $w.scrollTop() > 820 ) {
+        if( $w.scrollTop() > 50 ) {
             $("nav").removeClass("navbar-transparent");
-        } else if( $w.scrollTop() < 820 ) {
+        } else if( $w.scrollTop() < 50 ) {
             $("nav").addClass("navbar-transparent");
         }
     });
@@ -104,7 +104,7 @@ function change_color(value){
             $(".change_color").css("color","white");
             break;
         case 3:
-            $(".change_color").css("color","red");
+            $(".change_color").css("color","#616161");
             if (number == 1 && value == 1){
             	number = 1;
             }
@@ -123,7 +123,7 @@ function change_color_item(item){
             $(".change_color").css("color","white");
             break;
         case 3:
-            $(".change_color").css("color","red");
+            $(".change_color").css("color","#616161");
             break;
     }
 }

@@ -6,7 +6,7 @@
         <a href=""class="btn btn-purple btn-lg">Ofertas</a>
         <a href=""class="btn btn-white btn-lg">Agende uma visita</a>
     </div>-->
-    <main>
+
         <div id="carousel-example" class="carousel slide" data-ride="carousel" data-interval="false">
             <ol class="carousel-indicators">
                 <li onclick="change_color_item(1)" data-target="#carousel-example" data-slide-to="0" class="active"></li>
@@ -16,21 +16,21 @@
 
             <div class="carousel-inner">
                 <div class="item active">
-                    <a href="#"><img src="../res/site/img/banner.png" /></a>
+                    <a href="#"><img src="../res/site/img/b5.fw.png" /></a>
                     <div class="carousel-caption">
                         <!-- <h3>Meow</h3>
                         <p>Just Kitten Around</p>-->
                     </div>
                 </div>
                 <div class="item">
-                    <a href="#"><img src="../res/site/img/banner.png" /></a>
+                    <a href="#"><img src="../res/site/img/b4.jpg" /></a>
                     <div class="carousel-caption">
                         <!-- <h3>Meow</h3>
                         <p>Just Kitten Around</p>-->
                     </div>
                 </div>
                 <div class="item">
-                    <a href="#"><img src="../res/site/img/banner.png" /></a>
+                    <a href="#"><img src="../res/site/img/b3.jpg" /></a>
                     <div class="carousel-caption">
                         <!--<h3>Meow</h3>
                         <p>Just Kitten Around</p>-->
@@ -45,7 +45,7 @@
                 <span class="glyphicon glyphicon-chevron-right"></span>
             </a>
         </div>
-    </main>
+
 </section>
 
 <section class="main-section">
@@ -62,7 +62,7 @@
                 <div class="col-md-3">
                     <div class="categoria">
                         <div class="nome-categoria foto-categoria-blusas">
-                            <button class="btn btn-categoria">Blusas</button>
+                            <a href="/categories/1"><button class="btn btn-categoria">Blusas</button></a>
                         </div>
                     </div>
                 </div>
